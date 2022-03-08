@@ -11,124 +11,90 @@
 
     <title>Technical Review</title>
 </head>
-<body>
-    
-<div class="container">
-    <div class="container-fluid">
+<body class="bg">
 
+    <div class="container py-5">
+        <div class="container-fluid">
 
-        <div class="row pt-5">
-            <div class="row">
+            <div class="content-header">
                 <div class="row">
-                    <h1>Project Management</h1>
-                </div>
-                <div class="row pt-1">
-                    <p>Keep up to date with the status</p>
-                </div>
-                <div class="row">
-                    <p>Document Status</p>
+                    <div class="col-12">
+                        <h1>Project Information</h1>
+                        <h5>Keep up to date with the status of the Technical Document status</h5>
+                    </div>
+                    <div class="col-12 d-flex align-items-end justify-content-end">
+                        <button class="btn btn-outline btn-white">Back to Dashboard</button>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col"></div>
-                <div class="col-md-auto">
-                    <button class="btn btn-primary">Back to Application Status Page</button>
-                </div>
-            </div>
-            
-        </div>
 
-        <div class="row mt-3">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-header">Status: Technical Document</div>
-
-                    <div class="card-body">
-                        <div class="row">
-
-                            <div class="col-4">
-                                <button class="btn btn-primary">Upload Site Progress Photo</button>
+            <div class="content-body">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Status: Technical Documents</h5>
                             </div>
-                            <div class="col-4">
-                                <button class="btn btn-primary">Upload Supply Required Date</button>
+                            <div class="card-body">
+                                <div class="row mb-5">
+                                    <div class="col-12 col-lg-4"></div>
+                                    <div class="col-12 col-lg-8">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4 d-grid px-0 my-1">
+                                                <button class="btn btn-outline btn-green">Upload Site Progress Photo</button>
+                                            </div>
+                                            <div class="col-12 col-lg-4 d-grid px-0 my-1">
+                                                <button class="btn btn-outline btn-green">Update Supply Required Date</button>
+                                            </div>
+                                            <div class="col-12 col-lg-4 d-grid px-0 my-1">
+                                                <button class="btn btn-outline btn-green">Schedule Appointment</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-around">
+                                        <div>
+                                            <div class="circle circle-green mx-auto"></div>
+                                            <label class="text-center">Technical Documents Submission</label>
+                                        </div>
+                                        <div>
+                                            <div class="circle circle-grey mx-auto"></div>
+                                            <label class="text-center">Technical Documents Submission</label>
+                                        </div>
+                                        <div>
+                                            <div class="circle circle-grey mx-auto"></div>
+                                            <label class="text-center">Technical Documents Submission</label>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-4">
-                                <button class="btn btn-primary">Schedule Appointment</button>
-                            </div>
-                        </div>
-
-                        <div class="row" name="graphic"></div>
-
-                        <div class="row">
-                            <div class="col-4">Technical Documents Submission</div>
-                            <div class="col-4">Technical Review</div>
-                            <div class="col-4">Connection Charges</div>
                         </div>
                     </div>
                 </div>
-                
-            </div>
-        </div>
 
-
-        <div class="row mt-3">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col">Tetuan:</div>
-                            <div class="col">SRD:</div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col">Description:</div>
-                            <div class="col">Project No:</div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col">MD:</div>
-                            <div class="col">Developer:</div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col">Last Updated On:</div>
-                            <div class="col">Consultant:</div>
-                        </div>
-                    </div>    
-                </div>
-            </div>
-        </div>
-
-    
-        <div class="row mt-3">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">My Project Status</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-12">
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <th>Document Names</th>
-                                                <th>Status</th>
-                                                <th>Submission</th>
-                                                <th>Submission Date</th>
-                                                <th>Status</th>
-                                            </tr>
-                                        </thead>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-borderless">
                                         <tbody>
                                             <tr>
-                                                <td>
-
-                                                </td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
+                                                <td>Tetuan:</td>
+                                                <td>SRD:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Description:</td>
+                                                <td>Project No:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MD:</td>
+                                                <td>Developer:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Last updated on:</td>
+                                                <td>Consultant:</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -137,12 +103,202 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Upload Project Application Documents</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-upload">
+                                        <thead>
+                                            <tr>
+                                                <th>Document Names</th>
+                                                <th>Status</th>
+                                                <th>Submission</th>
+                                                <th>Submission Date</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Map A</td>
+                                                <td class="text-green fw-bold">Approved</td>
+                                                <td>2</td>
+                                                <td>22 Jul 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Map B</td>
+                                                <td class="text-green fw-bold">Approved</td>
+                                                <td>2</td>
+                                                <td>22 Jul 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Softcopy AutoCad</td>
+                                                <td class="text-green fw-bold">Approved</td>
+                                                <td>2</td>
+                                                <td>22 Jul 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Development Order</td>
+                                                <td class="text-green fw-bold">Approved</td>
+                                                <td>1</td>
+                                                <td>22 Jul 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Single Line Diagram</td>
+                                                <td class="text-red fw-bold">Resubmit</td>
+                                                <td>2</td>
+                                                <td>22 Jul 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Site Plan</td>
+                                                <td class="text-red fw-bold">Resubmit</td>
+                                                <td>2</td>
+                                                <td>22 Jul 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Meter Design & Layout</td>
+                                                <td class="text-red fw-bold">Resubmit</td>
+                                                <td>2</td>
+                                                <td>22 Jul 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Substation Layout</td>
+                                                <td class="text-red fw-bold">Resubmit</td>
+                                                <td>2</td>
+                                                <td>22 Jul 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>MSB Layout</td>
+                                                <td class="text-red fw-bold">Resubmit</td>
+                                                <td>2</td>
+                                                <td>22 Jul 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fire Fighting</td>
+                                                <td class="text-orange fw-bold">Not Received</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Barang Maklumat Awal</td>
+                                                <td class="text-orange fw-bold">Not Received</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Protection</td>
+                                                <td class="text-orange fw-bold">Not Received</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Borang A & Geran</td>
+                                                <td class="text-orange fw-bold">Not Received</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bank Guarantee</td>
+                                                <td class="text-grey fw-bold">Not Applicable</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>PQ Declaration</td>
+                                                <td class="text-grey fw-bold">Not Applicable</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Capacitor Bank Installation</td>
+                                                <td class="text-grey fw-bold">Not Applicable</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>SR No</td>
+                                                <td class="text-grey fw-bold">Not Applicable</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-
-
     </div>
-</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 
 
 
