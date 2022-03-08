@@ -30,6 +30,16 @@ body {
     color: #4dbd37;
 }
 
+.btn-grey {
+    border-color: #b1b1b1;
+    color: #b1b1b1;
+}
+
+.btn-grey-active {
+    background-color: #b1b1b1;
+    color: white;
+}
+
 .btn-outline {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 5px;
@@ -52,7 +62,7 @@ body {
 }
 
 .circle-grey {
-    background-color: #cacaca;
+    background-color: #b1b1b1;
 }
 
 .table-upload>tbody>tr>td, .table-upload>thead>tr>th {
@@ -60,7 +70,7 @@ body {
 }
 
 .table-upload>thead>tr>th {
-    background-color: #cacaca;
+    background-color: #b1b1b1;
     color: white;
 }
 
