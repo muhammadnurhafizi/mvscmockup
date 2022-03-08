@@ -16,15 +16,7 @@
         <div class="container-fluid">
 
             <div class="content-header">
-                <!-- <div class="row">
-                    <div class="col-12">
-                        <h1>Project Information</h1>
-                        <h5>Keep up to date with the status of the Technical Document status</h5>
-                    </div>
-                    <div class="col-12 d-flex align-items-end justify-content-end">
-                        <button class="btn btn-outline btn-white">Back to Dashboard</button>
-                    </div>
-                </div> -->
+                
             </div>
 
             <div class="content-body">
