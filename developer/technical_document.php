@@ -13,103 +13,109 @@
 </head>
 <body>
 
-    <div class="container">
+<body class="bg">
+
+    <div class="container py-5">
         <div class="container-fluid">
 
-            <div class="row pt-5">
-
+            <div class="content-header">
                 <div class="row">
-                    <div class="row">
-                        <h3>Project Information</h3>
+                    <div class="col-12">
+                        <h1>Project Information</h1>
+                        <h5>Keep up to date with the status of the Technical Document status</h5>
                     </div>
-                    
-                    <div class="row pt-1">
-                        <p>Keep up to date with the status of the Technical</p>
+                    <div class="col-12 d-flex align-items-end justify-content-end">
+                        <button class="btn btn-outline btn-white">Back to Dashboard</button>
                     </div>
-                    
-                    <div class="row">
-                        <p>Document Status</p>
-                    </div>
-
-                    <div class="row">
-                        <div class="col"></div>
-                            <div class="col-md-auto">
-                                <button class="btn btn-outline-info">Back to Dashbboard</button>
-                             </div>
-                        </div>
-                    </div>
+                </div>
+            </div>
             
-
-            <div class="row mt-3">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-header">Status: Technical Document</div>
-
-                        <div class="card-body">
-                            <div class="row">
-
-                                <div class="col-4">
-                                    <button class="btn btn-outline-success">Upload Site Progress Photo</button>
-                                </div>
-                                
-                                <div class="col-4">
-                                    <button class="btn btn-outline-success">Upload Supply Required Date</button>
-                                </div>
-
-                                <div class="col-4">
-                                    <button class="btn btn-outline-success">Schedule Appointment</button>
-                                </div>
+            <div class="content-body">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Status: Technical Documents</h5>
                             </div>
-
-                            <div class="row" name="graphic"></div>
-
+                            <div class="card-body">
+                                <div class="row mb-5">
+                                    <div class="col-12 col-lg-4"></div>
+                                    <div class="col-12 col-lg-8">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4 d-grid px-0 my-1">
+                                                <button class="btn btn-outline btn-green">Upload Site Progress Photo</button>
+                                            </div>
+                                            <div class="col-12 col-lg-4 d-grid px-0 my-1">
+                                                <button class="btn btn-outline btn-green">Update Supply Required Date</button>
+                                            </div>
+                                            <div class="col-12 col-lg-4 d-grid px-0 my-1">
+                                                <button class="btn btn-outline btn-green">Schedule Appointment</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="row">
-                                    <div class="col-4">Technical Documents Submission</div>
-                                    <div class="col-4">Technical Review</div>
-                                    <div class="col-4">Connection Charges</div>
+                                    <div class="col-12 d-flex justify-content-around">
+                                        <div>
+                                            <div class="circle circle-green mx-auto"></div>
+                                            <label class="text-center">Technical Documents Submission</label>
+                                        </div>
+                                        <div>
+                                            <div class="circle circle-grey mx-auto"></div>
+                                            <label class="text-center">Technical Review</label>
+                                        </div>
+                                        <div>
+                                            <div class="circle circle-grey mx-auto"></div>
+                                            <label class="text-center">Connection Charges</label>
+                                        </div>
+                                    </div>
                                 </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="row mt-3">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">Tetuan:</div>
-                                <div class="col">SRD:</div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col">Description:</div>
-                                <div class="col">Project No:</div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col">MD:</div>
-                                <div class="col">Developer:</div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col">Latest updated on:</div>
-                                <div class="col">Consultant:</div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row mt-3">
+
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td>Tetuan:</td>
+                                                <td>SRD:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Description:</td>
+                                                <td>Project No:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MD:</td>
+                                                <td>Developer:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Last updated on:</td>
+                                                <td>Consultant:</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="row mb-3">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header">Upload Project Application Documents</div>
+                        <div class="card-header">
+                                <h5 class="card-title">Upload Project Application Documents</h5>
+                        </div>
                           <div class="card-body">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <table class="table table-bordered">
+                                <div class="table-responsive">
+                                        <table class="table table-bordered table-upload">
                                             <thead>
                                             <tr>
                                                 <th>Document Names</th>
@@ -122,7 +128,7 @@
                                             <tbody>
                                                 <tr>
                                                     <td>Map A</td>
-                                                    <td class="text-warning">Pending Submission</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
                                                     <td>-</td>
                                                     <td class ="text-center align-middle">
                                                         <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -139,9 +145,11 @@
                                                                     <div class="modal-body">
                                                                         <input type="file" class="form-control" id="customFile" />
                                                                     </div>
-                                                                    <div class="modal-footer">
-                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
-                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    <div class="modal-footer"> 
+                                                                        <div class="asgd" style="text-allign:center;margin:auto">
+                                                                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                            <button type="button" class="btn btn-success">Submit</button>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -150,7 +158,7 @@
 
                                                 <tr>
                                                     <td>Map B</td>
-                                                    <td class="text-warning">Pending Submission</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
                                                     <td>-</td>
                                                     <td class ="text-center align-middle">
                                                         <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -178,7 +186,7 @@
 
                                                 <tr>
                                                     <td>Softcopy Autocad</td>
-                                                    <td class="text-warning">Pending Submission</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
                                                     <td>-</td>
                                                     <td class ="text-center align-middle">
                                                         <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -206,7 +214,371 @@
 
                                                 <tr>
                                                     <td>Development Order</td>
-                                                    <td>Pending Submission</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Single Line Diagram</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Site Plan</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Meter Design and Layout</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Substation Layout</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>MSB Layout</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Fire Fighting</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Barang Maklumat Awal</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Protection</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Borang A & Geran</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Guarantee</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>PO Declaration</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Capacitor Bank Installation</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
+                                                    <td>-</td>
+                                                    <td class ="text-center align-middle">
+                                                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        Upload</button>
+                                                        
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <input type="file" class="form-control" id="customFile" />
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancel</button>
+                                                                        <button type="button" class="btn btn-success">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>SR No</td>
+                                                    <td class="text-warning fw-bold">Pending Submission</td>
                                                     <td>-</td>
                                                     <td class ="text-center align-middle">
                                                         <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
