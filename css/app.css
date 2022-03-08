@@ -30,6 +30,11 @@ body {
     color: #4dbd37;
 }
 
+.btn-green-active {
+    background-color: #4dbd37;
+    color: white;
+}
+
 .btn-grey {
     border-color: #b1b1b1;
     color: #b1b1b1;
@@ -96,4 +101,37 @@ body {
 
 .text-purple {
     color:#6c34cc;
+}
+
+.list-roman {
+    list-style-type: lower-roman;
+}
+
+.upload-field {
+    height: 150px;
+    width: 100%;
+    border: 2px dashed grey;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.date-field {
+    height: 350px;
+}
+
+.view-field {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.list-group>.list-group-item {
+    text-align: left;
+    border: none;
+}
+
+.list-group>.list-group-item>p {
+    margin-bottom: 0;
 }

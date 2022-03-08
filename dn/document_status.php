@@ -22,7 +22,7 @@
                         <h5>Keep up to date with the status of the Technical Document status</h5>
                     </div>
                     <div class="col-12 d-flex align-items-end justify-content-end">
-                        <button class="btn btn-outline btn-white">Back to Dashboard</button>
+                        <a href="dashboard.php" class="btn btn-outline btn-white">Back to Dashboard</a>
                     </div>
                 </div>
             </div>
@@ -40,13 +40,83 @@
                                     <div class="col-12 col-lg-8">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 d-grid px-0 my-1">
-                                                <button class="btn btn-outline btn-green">Upload Site Progress Photo</button>
+                                                <button data-bs-toggle="modal" data-bs-target="#modal_upload_site_progress_photos" class="btn btn-outline btn-green">Upload Site Progress Photo</button>
+
+                                                <form>
+                                                    <input type="file" name="" id="" hidden>
+                                                    <div class="modal fade" id="modal_upload_site_progress_photos">
+                                                        <div class="modal-dialog modal-dialog-centered">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title">Upload site progress photos:</h5>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <div class="upload-field">
+                                                                        <h4 class="text-grey">Upload document</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <div class="w-100 d-flex justify-content-around">
+                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                        <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
                                             </div>
                                             <div class="col-12 col-lg-4 d-grid px-0 my-1">
-                                                <button class="btn btn-outline btn-green">Update Supply Required Date</button>
+                                                <button data-bs-toggle="modal" data-bs-target="#modal_update_supply_required_date" class="btn btn-outline btn-green">Update Supply Required Date</button>
+
+                                                <form>
+                                                    <div class="modal fade" id="modal_update_supply_required_date">
+                                                        <div class="modal-dialog modal-dialog-centered">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title">Update Supply Required Date:</h5>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <div class="date-field">
+                                                                        <input type="date" name="" id="" class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <div class="w-100 d-flex justify-content-around">
+                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                        <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
                                             </div>
                                             <div class="col-12 col-lg-4 d-grid px-0 my-1">
-                                                <button class="btn btn-outline btn-green">Schedule Appointment</button>
+                                                <button data-bs-toggle="modal" data-bs-target="#modal_schedule_appointment" class="btn btn-outline btn-green">Schedule Appointment</button>
+
+                                                <form>
+                                                    <div class="modal fade" id="modal_schedule_appointment">
+                                                        <div class="modal-dialog modal-dialog-centered">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title">Schedule Appointment:</h5>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <div class="date-field">
+                                                                        <input type="date" name="" id="" class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <div class="w-100 d-flex justify-content-around">
+                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                        <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -251,8 +321,8 @@
                                             <tr>
                                                 <td>Bank Guarantee</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
-                                                <td></td>
-                                                <td></td>
+                                                <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -260,8 +330,8 @@
                                             <tr>
                                                 <td>PQ Declaration</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
-                                                <td></td>
-                                                <td></td>
+                                                <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -269,8 +339,8 @@
                                             <tr>
                                                 <td>Capacitor Bank Installation</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
-                                                <td></td>
-                                                <td></td>
+                                                <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -278,8 +348,8 @@
                                             <tr>
                                                 <td>SR No</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
-                                                <td></td>
-                                                <td></td>
+                                                <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
