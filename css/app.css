@@ -1,11 +1,15 @@
+body {
+    min-height: 100vh;
+}
+
 .bg {
     background-image: linear-gradient(#6c34cc, #2786e4);
-    background-size: cover;
     height: 100%;
 }
 
 .content-header {
     color: white;
+    height: 10rem;
 }
 
 .content-header, .content-body {
@@ -29,6 +33,11 @@
 .btn-outline {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 5px;
+}
+
+.btn-link {
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .circle {
@@ -73,4 +82,8 @@
 
 .text-grey {
     color: #b1b1b1;
+}
+
+.text-purple {
+    color:#6c34cc;
 }
