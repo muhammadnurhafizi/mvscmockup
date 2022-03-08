@@ -73,15 +73,54 @@
                                         </thead>
                                         <tbody>
                                             <tr>
+                                                <td>PRJ-000-005-1726</td>
+                                                <td>DPZAC201780</td>
+                                                <td>4002200890</td>
+                                                <td class="text-success">Completed</td>
+                                                <td>PROJECT TARIFF MV LANDLORD TENANT > 100KVA</td>
                                                 <td>
-
+                                                    <button type="button" class="btn btn-link">Rename</button>
+                                                    <button type="button" class="btn btn-link">View</button>
                                                 </td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
                                             </tr>
+
+                                            <tr>
+                                                <td>PRJ-000-005-1727</td>
+                                                <td>DPZAC201782</td>
+                                                <td>4002200811</td>
+                                                <td class="text-primary">Pending Review</td>
+                                                <td>PROJECT TARIFF MV SINGLE PREMIE 8E>100KVA</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-link">Rename</button>
+                                                    <button type="button" class="btn btn-link">View</button>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>PRJ-000-005-1724</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="text-danger">Document Rejected</td>
+                                                <td>PROJECT TARIFF MV SINGLE PREMIE 8E>100KVA</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-link">Rename</button>
+                                                    <button type="button" class="btn btn-link">View</button>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>PRJ-000-005-1721</td>
+                                                <td>DPZAC201999</td>
+                                                <td>4002200628</td>
+                                                <td class="text-warning">Pending Document</td>
+                                                <td>PROJECT TARIFF MV SINGLE PREMIE 8E < 100KVA</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-link">Rename</button>
+                                                    <button type="button" class="btn btn-link">View</button>
+                                                </td>
+                                            </tr>
+
+
                                         </tbody>
                                     </table>
                                 </div>
