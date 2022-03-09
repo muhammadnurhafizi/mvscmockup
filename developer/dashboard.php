@@ -80,7 +80,7 @@
                                                 <td class="text-blue fw-bold">PROJECT TARIFF MV LANDLORD TENANT > 100KWA</td>
                                                 <td class="text-nowrap">
                                                     <button class="btn btn-link text-blue">Rename</button> | 
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <a href="technical_document.php" class="btn btn-link text-blue">View</a>
                                                 </td>
                                             </tr>
                                             <tr>
