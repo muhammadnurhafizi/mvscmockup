@@ -43,7 +43,7 @@
                                                 <button data-bs-toggle="modal" data-bs-target="#modal_upload_site_progress_photos" class="btn btn-outline btn-green">Upload Site Progress Photo</button>
 
                                                 <form>
-                                                    <input type="file" name="" id="" hidden>
+                                                    <input type="file" id="fileElem" multiple onchange="handleFiles(this.files)" hidden>
                                                     <div class="modal fade" id="modal_upload_site_progress_photos">
                                                         <div class="modal-dialog modal-dialog-centered">
                                                             <div class="modal-content">
@@ -52,7 +52,8 @@
                                                                 </div>
                                                                 <div class="modal-body">
                                                                     <div class="upload-field">
-                                                                        <h4 class="text-grey">Upload document</h4>
+                                                                        <h4 id="title" class="text-grey">Upload document</h4>
+                                                                        <div id="gallery" class="gallery"></div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
@@ -250,5 +251,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="../js/app.js"></script>
 </body>
 </html>
