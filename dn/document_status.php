@@ -122,18 +122,20 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 d-flex justify-content-around">
-                                        <div>
-                                            <div class="circle circle-green mx-auto"></div>
-                                            <label class="text-center">Technical Documents Submission</label>
-                                        </div>
-                                        <div>
-                                            <div class="circle circle-grey mx-auto"></div>
-                                            <label class="text-center">Technical Documents Submission</label>
-                                        </div>
-                                        <div>
-                                            <div class="circle circle-grey mx-auto"></div>
-                                            <label class="text-center">Technical Documents Submission</label>
+                                    <div class="col-12 d-flex justify-content-center overflow overflow-auto">
+                                        <div class="w-100 row d-flex justify-content-around">
+                                            <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
+                                                <div class="circle line circle-green mx-auto"></div>
+                                                <label class="text-center">Technical Documents Submission</label>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
+                                                <div class="circle line circle-grey mx-auto"></div>
+                                                <label class="text-center">Technical Review</label>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
+                                                <div class="circle circle-grey mx-auto"></div>
+                                                <label class="text-center">Connection Charges</label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
