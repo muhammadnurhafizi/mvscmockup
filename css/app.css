@@ -108,7 +108,7 @@ body {
 }
 
 .upload-field {
-    height: 150px;
+    min-height: 150px;
     width: 100%;
     border: 2px dashed grey;
     border-radius: 15px;
@@ -116,6 +116,10 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.upload-field.active {
+    border-color: #6c34cc;
 }
 
 .date-field {
@@ -154,7 +158,11 @@ body {
     left: -5px;
     top: 105%;
 }
-
+  
 .tooltip-item:hover .tooltip-notes {
     visibility: visible;
+}
+
+.gallery {
+    padding: 10px;
 }
