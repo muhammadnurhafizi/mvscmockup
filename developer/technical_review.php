@@ -128,8 +128,35 @@
                                                                     <h5 class="modal-title">Schedule Appointment:</h5>
                                                                 </div>
                                                                 <div class="modal-body">
-                                                                    <div class="date-field">
-                                                                        <input type="date" name="" id="" class="form-control">
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Appointment Date:</label>
+                                                                            <input type="datetime-local" name="" id="" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Venue:</label>
+                                                                            <input type="text" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Pic:</label>
+                                                                            <input type="text" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Remarks/Objectives:</label>
+                                                                            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Reason:</label>
+                                                                            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
