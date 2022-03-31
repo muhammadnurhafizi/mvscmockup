@@ -68,6 +68,7 @@
                                                 <th>Service Request / Notification Number</th>
                                                 <th>Status</th>
                                                 <th>Project Name</th>
+                                                <th>Percentage</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
@@ -78,6 +79,7 @@
                                                 <td>4002200890</td>
                                                 <td class="text-green fw-bold">Completed</td>
                                                 <td class="text-blue fw-bold">PROJECT TARIFF MV LANDLORD TENANT > 100KWA</td>
+                                                <td class="text-blue fw-bold">100%</td>
                                                 <td class="text-nowrap">
                                                     <button class="btn btn-link text-blue">Rename</button> | 
                                                     <a href="document_status.php" class="btn btn-link text-blue">View</a>
@@ -89,6 +91,7 @@
                                                 <td>4002200811</td>
                                                 <td class="text-blue fw-bold">Pending Review</td>
                                                 <td class="text-blue fw-bold">PROJECT TARIFF MV SINGLE PREMISE > 100KWA</td>
+                                                <td class="text-blue fw-bold">30%</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Rename</button> | 
                                                     <button class="btn btn-link text-blue">View</button>
@@ -100,6 +103,7 @@
                                                 <td></td>
                                                 <td class="text-red fw-bold">Document Rejected</td>
                                                 <td class="text-blue fw-bold">PROJECT TARIFF MV MULTIPLE PREMISE > 100KWA</td>
+                                                <td class="text-blue fw-bold">45%</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Rename</button> | 
                                                     <button class="btn btn-link text-blue">View</button>
@@ -111,6 +115,7 @@
                                                 <td>4002200628</td>
                                                 <td class="text-orange fw-bold">Pending Document</td>
                                                 <td class="text-blue fw-bold">PROJECT TARIFF MULTIPLE PREMISE < 100KWA</td>
+                                                <td class="text-blue fw-bold">0%</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Rename</button> | 
                                                     <button class="btn btn-link text-blue">View</button>

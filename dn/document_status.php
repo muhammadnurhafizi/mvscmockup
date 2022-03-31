@@ -51,9 +51,33 @@
                                                                     <h5 class="modal-title">Upload site progress photos:</h5>
                                                                 </div>
                                                                 <div class="modal-body">
-                                                                    <div class="upload-field">
-                                                                        <h4 id="title" class="text-grey">Upload document</h4>
-                                                                        <div id="gallery" class="gallery"></div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <div class="w-100 d-flex justify-content-around">
+                                                                                <button type="button" class="btn btn-outline btn-green">Site Photo</button>
+                                                                                <button type="button" class="btn btn-outline btn-green">Substation Photo</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <div class="upload-field">
+                                                                                <h4 id="title" class="text-grey">Upload document</h4>
+                                                                                <div id="gallery" class="gallery"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="remarks" class="form-label">Remarks:</label>
+                                                                            <textarea name="remarks" id="remarks" cols="30" rows="5" class="form-control"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="progress" class="form-label">Progress/Percentage:</label>
+                                                                            <textarea name="progress" id="progress" cols="30" rows="5" class="form-control"></textarea>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
@@ -104,8 +128,35 @@
                                                                     <h5 class="modal-title">Schedule Appointment:</h5>
                                                                 </div>
                                                                 <div class="modal-body">
-                                                                    <div class="date-field">
-                                                                        <input type="date" name="" id="" class="form-control">
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Appointment Date:</label>
+                                                                            <input type="datetime-local" name="" id="" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Venue:</label>
+                                                                            <input type="text" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Pic:</label>
+                                                                            <input type="text" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Remarks/Objectives:</label>
+                                                                            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Reason:</label>
+                                                                            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
@@ -126,14 +177,17 @@
                                     <div class="col-12 d-flex justify-content-center overflow overflow-auto">
                                         <div class="w-100 row d-flex justify-content-around">
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
+                                                <label class="text-center mb-1">100%</label>
                                                 <div class="circle line circle-green mx-auto"></div>
                                                 <label class="text-center">Technical Documents Submission</label>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
+                                                <label class="text-center mb-1">0%</label>
                                                 <div class="circle line circle-grey mx-auto"></div>
                                                 <label class="text-center">Technical Review</label>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
+                                                <label class="text-center mb-1">0%</label>
                                                 <div class="circle circle-grey mx-auto"></div>
                                                 <label class="text-center">Connection Charges</label>
                                             </div>
@@ -167,6 +221,9 @@
                                             <tr>
                                                 <td>Last updated on:</td>
                                                 <td>Consultant:</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">General Information:</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -341,15 +398,6 @@
                                             </tr>
                                             <tr>
                                                 <td>Capacitor Bank Installation</td>
-                                                <td class="text-grey fw-bold">Not Applicable</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>SR No</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
