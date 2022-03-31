@@ -219,6 +219,9 @@
                                                 <td>Last updated on:</td>
                                                 <td>Consultant:</td>
                                             </tr>
+                                            <tr>
+                                                <td colspan="2">General Information:</td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
@@ -392,15 +395,6 @@
                                             </tr>
                                             <tr>
                                                 <td>Capacitor Bank Installation</td>
-                                                <td class="text-grey fw-bold">Not Applicable</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>SR No</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>

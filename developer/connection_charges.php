@@ -219,6 +219,9 @@
                                                 <td>Last updated on:</td>
                                                 <td>Consultant:</td>
                                             </tr>
+                                            <tr>
+                                                <td colspan="2">General Information:</td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
