@@ -51,9 +51,33 @@
                                                                     <h5 class="modal-title">Upload site progress photos:</h5>
                                                                 </div>
                                                                 <div class="modal-body">
-                                                                    <div class="upload-field">
-                                                                        <h4 id="title" class="text-grey">Upload document</h4>
-                                                                        <div id="gallery" class="gallery"></div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <div class="w-100 d-flex justify-content-around">
+                                                                                <button type="button" class="btn btn-outline btn-green">Site Photo</button>
+                                                                                <button type="button" class="btn btn-outline btn-green">Substation Photo</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <div class="upload-field">
+                                                                                <h4 id="title" class="text-grey">Upload document</h4>
+                                                                                <div id="gallery" class="gallery"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="remarks" class="form-label">Remarks:</label>
+                                                                            <textarea name="remarks" id="remarks" cols="30" rows="5" class="form-control"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="progress" class="form-label">Progress/Percentage:</label>
+                                                                            <textarea name="progress" id="progress" cols="30" rows="5" class="form-control"></textarea>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
