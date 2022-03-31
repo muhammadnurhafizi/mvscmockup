@@ -421,6 +421,13 @@
                                     </table>
                                 </div>
                             </div>
+                            <div class="card-footer">
+                                <div class="row">
+                                    <div class="col d-flex justify-content-end">
+                                        <button class="btn btn-outline btn-green">Re-submit Documents</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
