@@ -177,8 +177,8 @@
                                     <div class="col-12 d-flex justify-content-center overflow overflow-auto">
                                         <div class="w-100 row d-flex justify-content-around">
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
-                                                <label class="text-center mb-1">70%</label>
-                                                <div class="circle line1 circle-grey mx-auto"></div>
+                                                <label class="text-center mb-1">100%</label>
+                                                <div class="circle line1 circle-green mx-auto"></div>
                                                 <label class="text-center">Technical Documents Submission</label>
                                                 <br>
                                             </div>

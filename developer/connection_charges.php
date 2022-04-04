@@ -178,13 +178,13 @@
                                         <div class="w-100 row d-flex justify-content-around">
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">100%</label>
-                                                <div class="circle line1 circle-grey mx-auto"></div>
+                                                <div class="circle line1 circle-green mx-auto"></div>
                                                 <label class="text-center">Technical Documents Submission</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">100%</label>   
-                                                <div class="circle line2 circle-grey mx-auto"></div>
+                                                <div class="circle line2 circle-green mx-auto"></div>
                                                 <label class="text-center">Technical Review</label>
                                                 <br>
                                             </div>
