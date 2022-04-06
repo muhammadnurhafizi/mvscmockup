@@ -256,6 +256,7 @@
                                             <tr>
                                                 <th>Document Names</th>
                                                 <th>Status</th>
+                                                <th>Submission No</th>
                                                 <th>Submission Date</th>
                                                 <th>Action</th>
                                             </tr>
@@ -263,16 +264,18 @@
                                         <tbody>
                                             <tr>
                                                 <td>Map A</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>Map B</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -280,6 +283,7 @@
                                             <tr>
                                                 <td>Softcopy AutoCad</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -289,6 +293,7 @@
                                                 <td>Development Order</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -296,6 +301,7 @@
                                             <tr>
                                                 <td>Single Line Diagram</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -305,6 +311,7 @@
                                                 <td>Site Plan</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -312,6 +319,7 @@
                                             <tr>
                                                 <td>Meter Design & Layout</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -321,6 +329,7 @@
                                                 <td>Substation Layout</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -328,6 +337,7 @@
                                             <tr>
                                                 <td>MSB Layout</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -337,6 +347,7 @@
                                                 <td>Fire Fighting</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -344,6 +355,7 @@
                                             <tr>
                                                 <td>Barang Maklumat Awal</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -353,6 +365,7 @@
                                                 <td>Relay Setting - Protection</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -360,6 +373,7 @@
                                             <tr>
                                                 <td>Borang A & Geran</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -369,6 +383,7 @@
                                                 <td>Bank Guarantee</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -377,6 +392,7 @@
                                                 <td>PQ Declaration</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -384,6 +400,7 @@
                                             <tr>
                                                 <td>Capacitor Bank Installation</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
