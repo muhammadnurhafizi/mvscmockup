@@ -256,7 +256,7 @@
                                             <tr>
                                                 <th>Document Names</th>
                                                 <th>Status</th>
-                                                <th>Submission</th>
+                                                <th>Submission No</th>
                                                 <th>Submission Date</th>
                                                 <th>Action</th>
                                             </tr>
