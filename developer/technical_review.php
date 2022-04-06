@@ -184,19 +184,19 @@
                                         <div class="w-100 row d-flex justify-content-around">
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">70%</label>
-                                                <div class="circle line1 circle-grey mx-auto"></div>
+                                                <a href="technical_document.php" class="circle line1 circle-grey mx-auto"></a>
                                                 <label class="text-center">Technical Documents Submission</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">0%</label>    
-                                                <div class="circle line2 circle-grey mx-auto"></div>
+                                                <a href="technical_review.php" class="circle line2 circle-grey mx-auto"></a>
                                                 <label class="text-center">Technical Review</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">0%</label>
-                                                <div class="circle circle-grey mx-auto"></div>
+                                                <a href="connection_charges.php" class="circle circle-grey mx-auto"></a>
                                                 <label class="text-center">Connection Charges</label>
                                                 <br>
                                             </div>
@@ -258,6 +258,7 @@
                                                 <th>Status</th>
                                                 <th>Submission No</th>
                                                 <th>Submission Date</th>
+                                                <th>Review Date</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
@@ -266,6 +267,7 @@
                                                 <td>Map A</td>
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>2</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
@@ -276,6 +278,7 @@
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
                                                 </td>
@@ -284,6 +287,7 @@
                                                 <td>Softcopy AutoCad</td>
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>2</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
@@ -294,6 +298,7 @@
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>1</td>
                                                 <td>22 Jul 2022</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
                                                 </td>
@@ -302,6 +307,7 @@
                                                 <td>Single Line Diagram</td>
                                                 <td class="text-red fw-bold">Resubmit</td>
                                                 <td>2</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
                                                     <button data-bs-toggle="modal" data-bs-target="#modal_view_single_line_diagram" class="btn btn-link text-blue">View</button> | 
@@ -398,6 +404,7 @@
                                                 <td class="text-red fw-bold">Resubmit</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -407,6 +414,7 @@
                                                 <td>Meter Design & Layout</td>
                                                 <td class="text-red fw-bold">Resubmit</td>
                                                 <td>2</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
@@ -418,6 +426,7 @@
                                                 <td class="text-red fw-bold">Resubmit</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -428,6 +437,7 @@
                                                 <td class="text-red fw-bold">Resubmit</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -436,6 +446,7 @@
                                             <tr>
                                                 <td>Fire Fighting</td>
                                                 <td class="text-orange fw-bold">Not Received</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>
@@ -448,6 +459,7 @@
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -456,6 +468,7 @@
                                             <tr>
                                                 <td>Relay Setting - Protection</td>
                                                 <td class="text-orange fw-bold">Not Received</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>
@@ -468,6 +481,7 @@
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -476,6 +490,7 @@
                                             <tr>
                                                 <td>Bank Guarantee</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>
@@ -487,6 +502,7 @@
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -494,6 +510,7 @@
                                             <tr>
                                                 <td>Capacitor Bank Installation</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>

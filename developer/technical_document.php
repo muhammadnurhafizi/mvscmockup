@@ -184,19 +184,19 @@
                                         <div class="w-100 row d-flex justify-content-around">
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">0%</label>
-                                                <div class="circle line1 circle-grey mx-auto"></div>
+                                                <a href="technical_document.php" class="circle line1 circle-grey mx-auto"></a>
                                                 <label class="text-center">Technical Documents Submission</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">0%</label>    
-                                                <div class="circle line2 circle-grey mx-auto"></div>
+                                                <a href="technical_review.php" class="circle line2 circle-grey mx-auto"></a>
                                                 <label class="text-center">Technical Review</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">0%</label>
-                                                <div class="circle circle-grey mx-auto"></div>
+                                                <a href="connection_charges.php" class="circle circle-grey mx-auto"></a>
                                                 <label class="text-center">Connection Charges</label>
                                                 <br>
                                             </div>

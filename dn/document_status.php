@@ -127,7 +127,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -136,7 +137,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -145,7 +147,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -154,7 +157,8 @@
                                                 <td>1</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -163,7 +167,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -172,7 +177,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -181,7 +187,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -190,7 +197,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -199,7 +207,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -207,60 +216,49 @@
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>Barang Maklumat Awal</td>
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>Relay Setting - Protection</td>
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>Borang A & Geran</td>
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>Bank Guarantee</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>PQ Declaration</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>Capacitor Bank Installation</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                         </tbody>
                                     </table>
