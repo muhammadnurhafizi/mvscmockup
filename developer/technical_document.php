@@ -104,6 +104,21 @@
                                                                 <div class="modal-body">
                                                                     <div class="date-field">
                                                                         <input type="date" name="" id="" class="form-control">
+                                                                        <br>
+                                                                        <div class="view-field">
+                                                                            <ul class="list-group">
+                                                                                <li class="list-group-item">
+                                                                                    <p>SRD 1: 15 January 2022</p>
+                                                                                    <p>Date: 12 December 2021</p>
+                                                                                    <p>Name: Ahmad Albab</p>
+                                                                                </li>
+                                                                                <li class="list-group-item">
+                                                                                    <p>SRD 2: 31 January 2022</p>
+                                                                                    <p>Date: 13 January 2022</p>
+                                                                                    <p>Name: Ahmad Albab</p>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
@@ -222,11 +237,12 @@
                                                 <td>Developer:</td>
                                             </tr>
                                             <tr>
-                                                <td>Last updated on:</td>
+                                                <td>SR:</td>
                                                 <td>Consultant:</td>
+                                                
                                             </tr>
                                             <tr>
-                                                <td colspan="2">General Information:</td>
+                                                <td colspan="2">Last updated on:</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -428,16 +444,20 @@
                                     <div class="col-12 col-lg-6">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
+                                                <!-- this button will redirect to dashboard-->
                                                 <button class="btn btn-outline btn-grey">Back</button>
                                             </div>
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
+                                                <!-- this button will revert all changes made -->
                                                 <button class="btn btn-outline btn-grey">Cancel</button>
                                             </div>
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
-                                                <button class="btn btn-outline btn-grey">Save as Draft</button>
+                                                <!-- this button will save the data without sending to ICPP -->
+                                                <a href="technical_document.php" class="btn btn-outline btn-grey">Save as Draft</a>
                                             </div>
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
-                                                <button class="btn btn-grey btn-grey-active">Submit</button>
+                                                <!-- this button will save and send data to ICPP -->
+                                                <a href="technical_review.php" class="btn btn-grey btn-grey-active">Submit</a>
                                             </div>
                                         </div>
                                     </div>

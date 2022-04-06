@@ -104,6 +104,21 @@
                                                                 <div class="modal-body">
                                                                     <div class="date-field">
                                                                         <input type="date" name="" id="" class="form-control">
+                                                                        <br>
+                                                                        <div class="view-field">
+                                                                            <ul class="list-group">
+                                                                                <li class="list-group-item">
+                                                                                    <p>SRD 1: 15 January 2022</p>
+                                                                                    <p>Date: 12 December 2021</p>
+                                                                                    <p>Name: Ahmad Albab</p>
+                                                                                </li>
+                                                                                <li class="list-group-item">
+                                                                                    <p>SRD 2: 31 January 2022</p>
+                                                                                    <p>Date: 13 January 2022</p>
+                                                                                    <p>Name: Ahmad Albab</p>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
@@ -221,11 +236,12 @@
                                                 <td>Developer:</td>
                                             </tr>
                                             <tr>
-                                                <td>Last updated on:</td>
+                                                <td>SR:</td>
                                                 <td>Consultant:</td>
+                                                
                                             </tr>
                                             <tr>
-                                                <td colspan="2">General Information:</td>
+                                                <td colspan="2">Last updated on:</td>
                                             </tr>
                                         </tbody>
                                     </table>
