@@ -62,15 +62,17 @@
                                                                     <div class="row mb-3">
                                                                         <div class="col-12">
                                                                             <div class="upload-field">
-                                                                                <h4 id="title" class="text-grey">Upload document</h4>
+                                                                                <h4 id="title" class="text-grey">Upload photos</h4>
                                                                                 <div id="gallery" class="gallery"></div>
                                                                             </div>
+                                                                            <small class="text-grey">PNG, JPG and JPEG. Maximum file size is 20MB for each files</small>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12">
                                                                             <label for="remarks" class="form-label">Remarks:</label>
                                                                             <textarea name="remarks" id="remarks" cols="30" rows="5" class="form-control"></textarea>
+                                                                            <p>1000 characters left</p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-3">
