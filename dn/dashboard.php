@@ -59,58 +59,72 @@
                                 <h5 class="card-title">My Project Status</h5>
                             </div>
                             <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered table-upload">
-                                    <thead>
-                                            <tr>
-                                                <th>Tetuan</th>
-                                                <th>SRD</th>
-                                                <th>Developer</th>
-                                                <th>Last Updated On</th>
-                                                <th>Project Number</th>
-                                                <th>Percentage</th>
-                                                <th>Action</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>PROJECT TARIFF MV LANDLORD TENANT > 100KVA</td>
-                                                <td>10 October 2022 </td>
-                                                <td>KV Construction</td>
-                                                <td class="fw-bold">6 July 2022</td>
-                                                <td>DPZAC201780</td>
-                                                <td class="text-blue fw-bold">100%</td>
-                                                <td class="text-nowrap">
-                                                    <button class="btn btn-link text-blue">Rename</button> | 
-                                                    <a href="technical_document.php" class="btn btn-link text-blue">View</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>PROJECT TARIFF MV SINGLE PREMISE > 100KVA</td>
-                                                <td>11 November 2022</td>
-                                                <td>ABA Hold</td>
-                                                <td class="fw-bold">20 June 2022</td>
-                                                <td>DPZAC201782</td>
-                                                <td class="text-blue fw-bold">30%</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Rename</button> | 
-                                                    <button class="btn btn-link text-blue">View</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>PROJECT TARIFF MV MULTIPLE PREMISE > 100KVA</td>
-                                                <td>11 December 2022</td>
-                                                <td>Baris Hadapan Sdn Bhd</td>
-                                                <td class="fw-bold">4 April 2022</td>
-                                                <td>DPZAC201999</td>
-                                                <td class="text-blue fw-bold">45%</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Rename</button> | 
-                                                    <button class="btn btn-link text-blue">View</button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <div class="row mb-3">
+                                    <div class="col-12">
+                                        <form>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control">
+                                                <button class="btn btn-success">Search</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-upload">
+                                            <thead>
+                                                    <tr>
+                                                        <th>Tetuan</th>
+                                                        <th>SRD</th>
+                                                        <th>Developer</th>
+                                                        <th>Last Updated On</th>
+                                                        <th>Project Number</th>
+                                                        <th>Percentage</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>PROJECT TARIFF MV LANDLORD TENANT > 100KVA</td>
+                                                        <td>10 October 2022 </td>
+                                                        <td>KV Construction</td>
+                                                        <td class="fw-bold">6 July 2022</td>
+                                                        <td>DPZAC201780</td>
+                                                        <td class="text-blue fw-bold">100%</td>
+                                                        <td class="text-nowrap">
+                                                            <button class="btn btn-link text-blue">Rename</button> | 
+                                                            <a href="technical_document.php" class="btn btn-link text-blue">View</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>PROJECT TARIFF MV SINGLE PREMISE > 100KVA</td>
+                                                        <td>11 November 2022</td>
+                                                        <td>ABA Hold</td>
+                                                        <td class="fw-bold">20 June 2022</td>
+                                                        <td>DPZAC201782</td>
+                                                        <td class="text-blue fw-bold">30%</td>
+                                                        <td>
+                                                            <button class="btn btn-link text-blue">Rename</button> | 
+                                                            <button class="btn btn-link text-blue">View</button>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>PROJECT TARIFF MV MULTIPLE PREMISE > 100KVA</td>
+                                                        <td>11 December 2022</td>
+                                                        <td>Baris Hadapan Sdn Bhd</td>
+                                                        <td class="fw-bold">4 April 2022</td>
+                                                        <td>DPZAC201999</td>
+                                                        <td class="text-blue fw-bold">45%</td>
+                                                        <td>
+                                                            <button class="btn btn-link text-blue">Rename</button> | 
+                                                            <button class="btn btn-link text-blue">View</button>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
