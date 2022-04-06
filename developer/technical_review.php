@@ -352,9 +352,34 @@
                                                                         <h5 class="modal-title">Upload Single Line Diagram:</h5>
                                                                     </div>
                                                                     <div class="modal-body">
-                                                                        <div class="upload-field">
-                                                                            <h4 class="text-grey">Upload document</h4>
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <p class="text-start">Document Name: Single Line Diagram</p>
+                                                                            </div>
                                                                         </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <div class="upload-field">
+                                                                                    <h4 class="text-grey">Upload document</h4>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <p class="text-start text-grey">
+                                                                                    <small>PNG, JPG, JPEG, PDF and DWG only. Maximum file size is 20MB for each files.</small>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <p class="text-start mb-0">
+                                                                                    Note: The documents submitted will be sent for processing daily at 12.00AM. 
+                                                                                    Only the latest documents submitted will be sent for processing.
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        
                                                                     </div>
                                                                     <div class="modal-footer">
                                                                         <div class="w-100 d-flex justify-content-around">
