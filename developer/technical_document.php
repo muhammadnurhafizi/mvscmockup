@@ -62,15 +62,17 @@
                                                                     <div class="row mb-3">
                                                                         <div class="col-12">
                                                                             <div class="upload-field">
-                                                                                <h4 id="title" class="text-grey">Upload document</h4>
+                                                                                <h4 id="title" class="text-grey">Upload photos</h4>
                                                                                 <div id="gallery" class="gallery"></div>
                                                                             </div>
+                                                                            <small class="text-grey">PNG, JPG and JPEG. Maximum file size is 20MB for each files</small>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12">
                                                                             <label for="remarks" class="form-label">Remarks:</label>
                                                                             <textarea name="remarks" id="remarks" cols="30" rows="5" class="form-control"></textarea>
+                                                                            <p>1000 characters left</p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-3">
@@ -104,6 +106,21 @@
                                                                 <div class="modal-body">
                                                                     <div class="date-field">
                                                                         <input type="date" name="" id="" class="form-control">
+                                                                        <br>
+                                                                        <div class="view-field">
+                                                                            <ul class="list-group">
+                                                                                <li class="list-group-item">
+                                                                                    <p>SRD 1: 15 January 2022</p>
+                                                                                    <p>Date: 12 December 2021</p>
+                                                                                    <p>Name: Ahmad Albab</p>
+                                                                                </li>
+                                                                                <li class="list-group-item">
+                                                                                    <p>SRD 2: 31 January 2022</p>
+                                                                                    <p>Date: 13 January 2022</p>
+                                                                                    <p>Name: Ahmad Albab</p>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
@@ -142,20 +159,9 @@
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12">
-                                                                            <label for="" class="form-label">Pic:</label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <label for="" class="form-label">Remarks/Objectives:</label>
+                                                                            <label for="" class="form-label">Remarks:</label>
                                                                             <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <label for="" class="form-label">Reason:</label>
-                                                                            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                                                                            <p>1000 characters left</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -178,19 +184,19 @@
                                         <div class="w-100 row d-flex justify-content-around">
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">0%</label>
-                                                <div class="circle line1 circle-grey mx-auto"></div>
+                                                <a href="technical_document.php" class="circle line1 circle-grey mx-auto"></a>
                                                 <label class="text-center">Technical Documents Submission</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">0%</label>    
-                                                <div class="circle line2 circle-grey mx-auto"></div>
+                                                <a href="technical_review.php" class="circle line2 circle-grey mx-auto"></a>
                                                 <label class="text-center">Technical Review</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
                                                 <label class="text-center mb-1">0%</label>
-                                                <div class="circle circle-grey mx-auto"></div>
+                                                <a href="connection_charges.php" class="circle circle-grey mx-auto"></a>
                                                 <label class="text-center">Connection Charges</label>
                                                 <br>
                                             </div>
@@ -222,11 +228,12 @@
                                                 <td>Developer:</td>
                                             </tr>
                                             <tr>
-                                                <td>Last updated on:</td>
+                                                <td>SR:</td>
                                                 <td>Consultant:</td>
+                                                
                                             </tr>
                                             <tr>
-                                                <td colspan="2">General Information:</td>
+                                                <td colspan="2">Last updated on:</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -249,6 +256,7 @@
                                             <tr>
                                                 <th>Document Names</th>
                                                 <th>Status</th>
+                                                <th>Submission No</th>
                                                 <th>Submission Date</th>
                                                 <th>Action</th>
                                             </tr>
@@ -256,16 +264,18 @@
                                         <tbody>
                                             <tr>
                                                 <td>Map A</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>Map B</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
+                                                <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -273,6 +283,7 @@
                                             <tr>
                                                 <td>Softcopy AutoCad</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -282,6 +293,7 @@
                                                 <td>Development Order</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -289,6 +301,7 @@
                                             <tr>
                                                 <td>Single Line Diagram</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -298,6 +311,7 @@
                                                 <td>Site Plan</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -305,6 +319,7 @@
                                             <tr>
                                                 <td>Meter Design & Layout</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -314,6 +329,7 @@
                                                 <td>Substation Layout</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -321,6 +337,7 @@
                                             <tr>
                                                 <td>MSB Layout</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -330,6 +347,7 @@
                                                 <td>Fire Fighting</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -338,13 +356,15 @@
                                                 <td>Barang Maklumat Awal</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Protection</td>
+                                                <td>Relay Setting - Protection</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -354,6 +374,7 @@
                                                 <td>Borang A & Geran</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -361,6 +382,7 @@
                                             <tr>
                                                 <td>Bank Guarantee</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -370,6 +392,7 @@
                                                 <td>PQ Declaration</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
+                                                <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
@@ -377,6 +400,7 @@
                                             <tr>
                                                 <td>Capacitor Bank Installation</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -428,16 +452,20 @@
                                     <div class="col-12 col-lg-6">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
+                                                <!-- this button will redirect to dashboard-->
                                                 <button class="btn btn-outline btn-grey">Back</button>
                                             </div>
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
+                                                <!-- this button will revert all changes made -->
                                                 <button class="btn btn-outline btn-grey">Cancel</button>
                                             </div>
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
-                                                <button class="btn btn-outline btn-grey">Save as Draft</button>
+                                                <!-- this button will save the data without sending to ICPP -->
+                                                <a href="technical_document.php" class="btn btn-outline btn-grey">Save as Draft</a>
                                             </div>
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
-                                                <button class="btn btn-grey btn-grey-active">Submit</button>
+                                                <!-- this button will save and send data to ICPP -->
+                                                <a href="technical_review.php" class="btn btn-grey btn-grey-active">Submit</a>
                                             </div>
                                         </div>
                                     </div>

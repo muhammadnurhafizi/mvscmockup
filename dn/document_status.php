@@ -37,141 +37,6 @@
                             <div class="card-body">
                                 <div class="row mb-5">
                                     <div class="col-12 col-lg-4"></div>
-                                    <div class="col-12 col-lg-8">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-4 d-grid px-0 my-1">
-                                                <button data-bs-toggle="modal" data-bs-target="#modal_upload_site_progress_photos" class="btn btn-outline btn-green">Upload Site Progress Photo</button>
-
-                                                <form>
-                                                    <input type="file" id="fileElem" multiple onchange="handleFiles(this.files)" hidden>
-                                                    <div class="modal fade" id="modal_upload_site_progress_photos">
-                                                        <div class="modal-dialog modal-dialog-centered">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title">Upload site progress photos:</h5>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <div class="w-100 d-flex justify-content-around">
-                                                                                <button type="button" class="btn btn-outline btn-green">Site Photo</button>
-                                                                                <button type="button" class="btn btn-outline btn-green">Substation Photo</button>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <div class="upload-field">
-                                                                                <h4 id="title" class="text-grey">Upload document</h4>
-                                                                                <div id="gallery" class="gallery"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <label for="remarks" class="form-label">Remarks:</label>
-                                                                            <textarea name="remarks" id="remarks" cols="30" rows="5" class="form-control"></textarea>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <label for="progress" class="form-label">Progress/Percentage:</label>
-                                                                            <textarea name="progress" id="progress" cols="30" rows="5" class="form-control"></textarea>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="modal-footer">
-                                                                    <div class="w-100 d-flex justify-content-around">
-                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
-                                                                        <button type="submit" class="btn btn-green-active">Submit</button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <div class="col-12 col-lg-4 d-grid px-0 my-1">
-                                                <button data-bs-toggle="modal" data-bs-target="#modal_update_supply_required_date" class="btn btn-outline btn-green">Update Supply Required Date</button>
-
-                                                <form>
-                                                    <div class="modal fade" id="modal_update_supply_required_date">
-                                                        <div class="modal-dialog modal-dialog-centered">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title">Update Supply Required Date:</h5>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <div class="date-field">
-                                                                        <input type="date" name="" id="" class="form-control">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="modal-footer">
-                                                                    <div class="w-100 d-flex justify-content-around">
-                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
-                                                                        <button type="submit" class="btn btn-green-active">Submit</button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <div class="col-12 col-lg-4 d-grid px-0 my-1">
-                                                <button data-bs-toggle="modal" data-bs-target="#modal_schedule_appointment" class="btn btn-outline btn-green">Schedule Appointment</button>
-
-                                                <form>
-                                                    <div class="modal fade" id="modal_schedule_appointment">
-                                                        <div class="modal-dialog modal-dialog-centered">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title">Schedule Appointment:</h5>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <label for="" class="form-label">Appointment Date:</label>
-                                                                            <input type="datetime-local" name="" id="" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <label for="" class="form-label">Venue:</label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <label for="" class="form-label">Pic:</label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <label for="" class="form-label">Remarks/Objectives:</label>
-                                                                            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12">
-                                                                            <label for="" class="form-label">Reason:</label>
-                                                                            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="modal-footer">
-                                                                    <div class="w-100 d-flex justify-content-around">
-                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
-                                                                        <button type="submit" class="btn btn-green-active">Submit</button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-12 d-flex justify-content-center overflow overflow-auto">
@@ -222,11 +87,12 @@
                                                 <td>Developer:</td>
                                             </tr>
                                             <tr>
-                                                <td>Last updated on:</td>
+                                                <td>SR:</td>
                                                 <td>Consultant:</td>
+                                                
                                             </tr>
                                             <tr>
-                                                <td colspan="2">General Information:</td>
+                                                <td colspan="2">Last updated on:</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -249,7 +115,7 @@
                                             <tr>
                                                 <th>Document Names</th>
                                                 <th>Status</th>
-                                                <th>Submission</th>
+                                                <th>Submission No</th>
                                                 <th>Submission Date</th>
                                                 <th>Action</th>
                                             </tr>
@@ -261,7 +127,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -270,7 +137,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -279,7 +147,8 @@
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -288,7 +157,8 @@
                                                 <td>1</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button class="btn btn-link text-blue">View</button> | 
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -298,7 +168,7 @@
                                                 <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -308,7 +178,7 @@
                                                 <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -318,7 +188,7 @@
                                                 <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -328,7 +198,7 @@
                                                 <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -338,7 +208,7 @@
                                                 <td>22 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -346,67 +216,49 @@
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>Barang Maklumat Awal</td>
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>Protection</td>
+                                                <td>Relay Setting - Protection</td>
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>Borang A & Geran</td>
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>Bank Guarantee</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>PQ Declaration</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td>Capacitor Bank Installation</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                         </tbody>
                                     </table>

@@ -43,7 +43,7 @@
                                         </div>
                                         <div>
                                             <h1 class="text-center text-green">2</h1>
-                                            <label class="text-center">Total Projects</label>
+                                            <label class="text-center">Completed</label>
                                         </div>
                                     </div>
                                 </div>
@@ -63,22 +63,22 @@
                                     <table class="table table-bordered table-upload">
                                         <thead>
                                             <tr>
-                                                <th>Application Number</th>
-                                                <th>Project ID</th>
-                                                <th>Service Request / Notification Number</th>
-                                                <th>Status</th>
-                                                <th>Project Name</th>
+                                                <th>Tetuan</th>
+                                                <th>SRD</th>
+                                                <th>Developer</th>
+                                                <th>Last Updated On</th>
+                                                <th>Project Number</th>
                                                 <th>Percentage</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>PRJ-000-006-1726</td>
+                                                <td>PROJECT TARIFF MV LANDLORD TENANT > 100KVA</td>
+                                                <td>10 October 2022 </td>
+                                                <td>KV Construction</td>
+                                                <td class="fw-bold">6 July 2022</td>
                                                 <td>DPZAC201780</td>
-                                                <td>4002200890</td>
-                                                <td class="text-green fw-bold">Completed</td>
-                                                <td class="text-blue fw-bold">PROJECT TARIFF MV LANDLORD TENANT > 100KWA</td>
                                                 <td class="text-blue fw-bold">100%</td>
                                                 <td class="text-nowrap">
                                                     <button class="btn btn-link text-blue">Rename</button> | 
@@ -86,11 +86,11 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>PRJ-000-006-1727</td>
+                                                <td>PROJECT TARIFF MV SINGLE PREMISE > 100KVA</td>
+                                                <td>11 November 2022</td>
+                                                <td>ABA Hold</td>
+                                                <td class="fw-bold">20 June 2022</td>
                                                 <td>DPZAC201782</td>
-                                                <td>4002200811</td>
-                                                <td class="text-blue fw-bold">Pending Review</td>
-                                                <td class="text-blue fw-bold">PROJECT TARIFF MV SINGLE PREMISE > 100KWA</td>
                                                 <td class="text-blue fw-bold">30%</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Rename</button> | 
@@ -98,24 +98,12 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>PRJ-000-006-1724</td>
-                                                <td></td>
-                                                <td></td>
-                                                <td class="text-red fw-bold">Document Rejected</td>
-                                                <td class="text-blue fw-bold">PROJECT TARIFF MV MULTIPLE PREMISE > 100KWA</td>
-                                                <td class="text-blue fw-bold">45%</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Rename</button> | 
-                                                    <button class="btn btn-link text-blue">View</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>PRJ-000-006-1721</td>
+                                                <td>PROJECT TARIFF MV MULTIPLE PREMISE > 100KVA</td>
+                                                <td>11 December 2022</td>
+                                                <td>Baris Hadapan Sdn Bhd</td>
+                                                <td class="fw-bold">4 April 2022</td>
                                                 <td>DPZAC201999</td>
-                                                <td>4002200628</td>
-                                                <td class="text-orange fw-bold">Pending Document</td>
-                                                <td class="text-blue fw-bold">PROJECT TARIFF MULTIPLE PREMISE < 100KWA</td>
-                                                <td class="text-blue fw-bold">0%</td>
+                                                <td class="text-blue fw-bold">45%</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Rename</button> | 
                                                     <button class="btn btn-link text-blue">View</button>
