@@ -32,7 +32,7 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="card-title">Status: Technical Documents</h5>
+                                <h5 class="card-title">Status: Technical Review</h5>
                             </div>
                             <div class="card-body">
                                 <div class="row mb-5">
@@ -268,7 +268,7 @@
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
-                                                <td>22 Jul 2022</td>
+                                                <td>30 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
                                                 </td>
@@ -278,7 +278,7 @@
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
-                                                <td>22 Jul 2022</td>
+                                                <td>30 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
                                                 </td>
@@ -288,7 +288,7 @@
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
-                                                <td>22 Jul 2022</td>
+                                                <td>30 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
                                                 </td>
@@ -298,7 +298,7 @@
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>1</td>
                                                 <td>22 Jul 2022</td>
-                                                <td>22 Jul 2022</td>
+                                                <td>30 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
                                                 </td>
@@ -308,7 +308,7 @@
                                                 <td class="text-red fw-bold">Resubmit</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
-                                                <td>22 Jul 2022</td>
+                                                <td>30 Jul 2022</td>
                                                 <td>
                                                     <button data-bs-toggle="modal" data-bs-target="#modal_view_single_line_diagram" class="btn btn-link text-blue">View</button> | 
                                                     <button data-bs-toggle="modal" data-bs-target="#modal_upload_single_line_diagram" class="btn btn-link text-blue">Upload</button>
@@ -404,7 +404,7 @@
                                                 <td class="text-red fw-bold">Resubmit</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
-                                                <td>22 Jul 2022</td>
+                                                <td>30 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -415,7 +415,7 @@
                                                 <td class="text-red fw-bold">Resubmit</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
-                                                <td>22 Jul 2022</td>
+                                                <td>30 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -426,7 +426,7 @@
                                                 <td class="text-red fw-bold">Resubmit</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
-                                                <td>22 Jul 2022</td>
+                                                <td>30 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
                                                     <button class="btn btn-link text-blue">Upload</button>
@@ -437,7 +437,7 @@
                                                 <td class="text-red fw-bold">Resubmit</td>
                                                 <td>2</td>
                                                 <td>22 Jul 2022</td>
-                                                <td>22 Jul 2022</td>
+                                                <td>30 Jul 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> | 
                                                     <button class="btn btn-link text-blue">Upload</button>
