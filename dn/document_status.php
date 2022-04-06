@@ -221,7 +221,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Protection</td>
+                                                <td>Relay Setting - Protection</td>
                                                 <td class="text-orange fw-bold">Not Received</td>
                                                 <td>-</td>
                                                 <td>-</td>

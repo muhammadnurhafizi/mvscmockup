@@ -359,7 +359,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Protection</td>
+                                                <td>Relay Setting - Protection</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
                                                 <td>
