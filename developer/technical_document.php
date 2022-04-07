@@ -220,20 +220,20 @@
                                                 <td>SRD:</td>
                                             </tr>
                                             <tr>
-                                                <td>Description:</td>
+                                                <td>MD:</td>
                                                 <td>Project No:</td>
                                             </tr>
                                             <tr>
-                                                <td>MD:</td>
+                                                <td>SR:</td>
                                                 <td>Developer:</td>
                                             </tr>
                                             <tr>
-                                                <td>SR:</td>
+                                                <td>Last updated on:</td>
                                                 <td>Consultant:</td>
                                                 
                                             </tr>
                                             <tr>
-                                                <td colspan="2">Last updated on:</td>
+                                                <td colspan="2">Description:</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -268,7 +268,54 @@
                                                 <td>1</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button data-bs-toggle="modal" data-bs-target="#modal_upload_map_a" class="btn btn-link text-blue">Upload</button>
+                                                    <form action="">
+                                                        <div class="modal fade" id="modal_upload_map_a">
+                                                            <div class="modal-dialog modal-dialog-centered">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">Upload Document</h5>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <p class="text-start">Document Name: Map A</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <div class="upload-field">
+                                                                                    <h4 class="text-grey">Upload document</h4>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <p class="text-start text-grey">
+                                                                                    <small>PNG, JPG, JPEG, PDF and DWG only. Maximum file size is 20MB for each files.</small>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <p class="text-start mb-0">
+                                                                                    Note: The documents submitted will be sent for processing daily at 12.00AM. 
+                                                                                    Only the latest documents submitted will be sent for processing.
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <div class="w-100 d-flex justify-content-around">
+                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                            <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
                                                 </td>
                                             </tr>
                                             <tr>
