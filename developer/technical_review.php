@@ -220,20 +220,20 @@
                                                 <td>SRD:</td>
                                             </tr>
                                             <tr>
-                                                <td>Description:</td>
+                                                <td>MD:</td>
                                                 <td>Project No:</td>
                                             </tr>
                                             <tr>
-                                                <td>MD:</td>
+                                                <td>SR:</td>
                                                 <td>Developer:</td>
                                             </tr>
                                             <tr>
-                                                <td>SR:</td>
+                                                <td>Last updated on:</td>
                                                 <td>Consultant:</td>
                                                 
                                             </tr>
                                             <tr>
-                                                <td colspan="2">Last updated on:</td>
+                                                <td colspan="2">Description:</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -355,7 +355,7 @@
                                                             <div class="modal-dialog modal-dialog-centered">
                                                                 <div class="modal-content">
                                                                     <div class="modal-header">
-                                                                        <h5 class="modal-title">Upload Single Line Diagram:</h5>
+                                                                        <h5 class="modal-title">Upload Document</h5>
                                                                     </div>
                                                                     <div class="modal-body">
                                                                         <div class="row">

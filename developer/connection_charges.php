@@ -220,20 +220,20 @@
                                                 <td>SRD:</td>
                                             </tr>
                                             <tr>
-                                                <td>Description:</td>
+                                                <td>MD:</td>
                                                 <td>Project No:</td>
                                             </tr>
                                             <tr>
-                                                <td>MD:</td>
+                                                <td>SR:</td>
                                                 <td>Developer:</td>
                                             </tr>
                                             <tr>
-                                                <td>SR:</td>
+                                                <td>Last updated on:</td>
                                                 <td>Consultant:</td>
                                                 
                                             </tr>
                                             <tr>
-                                                <td colspan="2">Last updated on:</td>
+                                                <td colspan="2">Description:</td>
                                             </tr>
                                         </tbody>
                                     </table>
