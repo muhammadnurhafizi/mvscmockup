@@ -1,4 +1,7 @@
-body {
+*{
+    font-family: museosans,sans-serif;
+}
+    body {
     font-family: museosans,sans-serif;
     min-height: 100vh;
 }
