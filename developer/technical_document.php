@@ -264,13 +264,192 @@
                                         <tbody>
                                             <tr>
                                                 <td>Map A</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <button data-bs-toggle="modal" data-bs-target="#modal_form_map_a" class="btn btn-link text-blue">Upload</button>
+                                                    <form action="">
+                                                        <div class="modal fade" id="modal_form_map_a">
+                                                            <div class="modal-dialog modal-dialog-centered modal-xl">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">Document Name: Map A</h5>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <div class="table-responsive">
+                                                                                    <table class="table table-bordered text-nowrap align-middle text-start">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <th>Address of Installation</th>
+                                                                                                <td class="w-100"><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Site Location (Lot & Mk No.)</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Single Tenancy or Multi-Tenanted Premise</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Type of Premise</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Total Gross Built-In Floor Area</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Total Land Area</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Name of Architect</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Address</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Telephone No.</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Fax No.</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Email Address</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Name of Surveyor</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Address</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Telephone No.</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Fax No.</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Email Address</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Name of Owner/Developer</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Address</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Telephone No.</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Fax No.</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Email Address</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Name of Consultant/Engineer</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Address</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Telephone No.</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Fax No.</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Email Address</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Name of Consultant Engineer</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Address</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Telephone No.</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Fax No.</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Email Address</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Date Supply Required (Final) MD (Kw)</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th>Date Supply Required (Final)</th>
+                                                                                                <td><input type="text" class="form-control"></td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>      
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <div class="w-100 d-flex justify-content-around">
+                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                            <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Map B</td>
                                                 <td class="text-green fw-bold">Uploaded</td>
                                                 <td>1</td>
                                                 <td>22 Jul 2022</td>
                                                 <td>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modal_upload_map_a" class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Softcopy AutoCad</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <button data-bs-toggle="modal" data-bs-target="#modal_upload_softcopy_autocad" class="btn btn-link text-blue">Upload</button>
                                                     <form action="">
-                                                        <div class="modal fade" id="modal_upload_map_a">
+                                                        <div class="modal fade" id="modal_upload_softcopy_autocad">
                                                             <div class="modal-dialog modal-dialog-centered">
                                                                 <div class="modal-content">
                                                                     <div class="modal-header">
@@ -279,7 +458,7 @@
                                                                     <div class="modal-body">
                                                                         <div class="row">
                                                                             <div class="col-12">
-                                                                                <p class="text-start">Document Name: Map A</p>
+                                                                                <p class="text-start">Document Name: Softcopy AutoCad</p>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row">
@@ -316,24 +495,6 @@
                                                             </div>
                                                         </div>
                                                     </form>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Map B</td>
-                                                <td class="text-green fw-bold">Uploaded</td>
-                                                <td>1</td>
-                                                <td>22 Jul 2022</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Softcopy AutoCad</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
