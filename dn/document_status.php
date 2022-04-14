@@ -122,139 +122,178 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>Map A</td>
-                                                <td class="text-green fw-bold">Approved</td>
-                                                <td>2</td>
-                                                <td>22 Jul 2022</td>
-                                                <td>30 Jul 2022</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Download</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Map B</td>
-                                                <td class="text-green fw-bold">Approved</td>
-                                                <td>2</td>
-                                                <td>22 Jul 2022</td>
-                                                <td>30 Jul 2022</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Download</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Softcopy AutoCad</td>
-                                                <td class="text-green fw-bold">Approved</td>
-                                                <td>2</td>
-                                                <td>22 Jul 2022</td>
-                                                <td>30 Jul 2022</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Download</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Development Order</td>
+                                        <tr>
+                                                <td>Map A <span class="text-danger">*</span></td>
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>1</td>
-                                                <td>22 Jul 2022</td>
-                                                <td>30 Jul 2022</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Download</button>
+                                                    <button class="btn btn-link text-blue">View</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Single Line Diagram</td>
+                                                <td>Map B <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Approved</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Developer/Project Owner Company <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Approved</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Consultant Appointment Letter <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Approved</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Detailed Site Development Plan <span class="text-danger">*</span></td>
                                                 <td class="text-red fw-bold">Resubmit</td>
-                                                <td>2</td>
-                                                <td>22 Jul 2022</td>
-                                                <td>30 Jul 2022</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Download</button>
+                                                    <button class="btn btn-link text-blue">View</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Site Plan</td>
+                                                <td>Single Line Diagram <span class="text-danger">*</span></td>
                                                 <td class="text-red fw-bold">Resubmit</td>
-                                                <td>2</td>
-                                                <td>22 Jul 2022</td>
-                                                <td>30 Jul 2022</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Download</button>
+                                                    <button class="btn btn-link text-blue">View</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Meter Design & Layout</td>
+                                                <td>Location Plan on Meter Panel <span class="text-danger">*</span></td>
                                                 <td class="text-red fw-bold">Resubmit</td>
-                                                <td>2</td>
-                                                <td>22 Jul 2022</td>
-                                                <td>30 Jul 2022</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Download</button>
+                                                    <button class="btn btn-link text-blue">View</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Substation Layout</td>
+                                                <td>Latest Development Order Plan <span class="text-danger">*</span></td>
                                                 <td class="text-red fw-bold">Resubmit</td>
-                                                <td>2</td>
-                                                <td>22 Jul 2022</td>
-                                                <td>30 Jul 2022</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Download</button>
+                                                    <button class="btn btn-link text-blue">View</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>MSB Layout</td>
+                                                <td>Site Plan with Proposed Sub-Station <span class="text-danger">*</span></td>
                                                 <td class="text-red fw-bold">Resubmit</td>
-                                                <td>2</td>
-                                                <td>22 Jul 2022</td>
-                                                <td>30 Jul 2022</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button> | 
-                                                    <button class="btn btn-link text-blue">Download</button>
+                                                    <button class="btn btn-link text-blue">View</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Fire Fighting</td>
-                                                <td class="text-orange fw-bold">Not Received</td>
+                                                <td>Layout Plan of Sub-Station Building <span class="text-danger">*</span></td>
+                                                <td class="text-red fw-bold">Resubmit</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Location and Layout Plan of Main Switch <span class="text-danger">*</span></td>
+                                                <td class="text-red fw-bold">Resubmit</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> 
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Meter Panel/Meter Kiosk/Meter at Gate <span class="text-danger">*</span></td>
+                                                <td class="text-red fw-bold">Resubmit</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> 
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Substation Land: 1 Copy Borang A</td>
+                                                <td class="text-red fw-bold">Resubmit</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button> 
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Substation Land: Bank Guarantee</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>Barang Maklumat Awal</td>
-                                                <td class="text-orange fw-bold">Not Received</td>
+                                                <td>Substation Land: 8 Copies Pre-Com</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>Relay Setting - Protection</td>
-                                                <td class="text-orange fw-bold">Not Received</td>
+                                                <td>Substation Land: 1 Copy of Hakmilik</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>Borang A & Geran</td>
-                                                <td class="text-orange fw-bold">Not Received</td>
+                                                <td>Power Quality Compliance Declaration</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>Bank Guarantee</td>
+                                                <td>MV & HV Metering: Preliminary Metering</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Protection: Relay Setting</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
@@ -262,7 +301,7 @@
                                                 <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>PQ Declaration</td>
+                                                <td>Fire Fighting Document for Attachment</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
@@ -270,7 +309,15 @@
                                                 <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>Capacitor Bank Installation</td>
+                                                <td>Surat Ulasan Kebenaran Merancang TNB </td>
+                                                <td class="text-grey fw-bold">Not Applicable</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Others</td>
                                                 <td class="text-grey fw-bold">Not Applicable</td>
                                                 <td>-</td>
                                                 <td>-</td>
@@ -285,7 +332,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
