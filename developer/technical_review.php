@@ -139,7 +139,7 @@
 
                                                 <form>
                                                     <div class="modal fade" id="modal_schedule_appointment">
-                                                        <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-dialog modal-dialog-centered modal-lg">
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
                                                                     <h5 class="modal-title">Schedule Appointment:</h5>
@@ -162,6 +162,42 @@
                                                                             <label for="" class="form-label">Remarks</label>
                                                                             <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
                                                                             <p>1000 characters left</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <div class="table-responsive">
+                                                                                <table class="table table-bordered text-nowrap">
+                                                                                    <thead class="text-center">
+                                                                                        <tr>
+                                                                                            <th>Date</th>
+                                                                                            <th>Appointment Date</th>
+                                                                                            <th>Venue</th>
+                                                                                            <th>Status</th>
+                                                                                            <th>Remarks</th>
+                                                                                            <th>Remarks from TNB</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>10 Jul 2022</td>
+                                                                                            <td>22 Jul 2022 10.00 AM</td>
+                                                                                            <td>TNB Office</td>
+                                                                                            <td>Rejected</td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>15 Jul 2022</td>
+                                                                                            <td>25 Aug 2022 10.00 AM</td>
+                                                                                            <td>TNB Office</td>
+                                                                                            <td>Rejected</td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
