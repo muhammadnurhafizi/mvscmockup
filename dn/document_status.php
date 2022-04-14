@@ -122,7 +122,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        <tr>
+                                            <tr>
                                                 <td>Map A <span class="text-danger">*</span></td>
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>1</td>

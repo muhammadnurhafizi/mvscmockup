@@ -299,12 +299,14 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Map A</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Map A <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modal_form_map_a" class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button data-bs-toggle="modal" data-bs-target="#modal_form_map_a" class="btn btn-link text-blue">Upload</button>
+
                                                     <form action="">
                                                         <div class="modal fade" id="modal_form_map_a">
                                                             <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -469,23 +471,26 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Map B</td>
+                                                <td>Map B <span class="text-danger">*</span></td>
                                                 <td class="text-green fw-bold">Uploaded</td>
                                                 <td>1</td>
-                                                <td>22 Jul 2022</td>
+                                                <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Softcopy AutoCad</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Developer/Project Owner Company <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modal_upload_softcopy_autocad" class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button data-bs-toggle="modal" data-bs-target="#modal_upload_1" class="btn btn-link text-blue">Upload</button>
+
                                                     <form action="">
-                                                        <div class="modal fade" id="modal_upload_softcopy_autocad">
+                                                        <div class="modal fade" id="modal_upload_1">
                                                             <div class="modal-dialog modal-dialog-centered">
                                                                 <div class="modal-content">
                                                                     <div class="modal-header">
@@ -494,7 +499,7 @@
                                                                     <div class="modal-body">
                                                                         <div class="row">
                                                                             <div class="col-12">
-                                                                                <p class="text-start">Document Name: Softcopy AutoCad</p>
+                                                                                <p class="text-start">Document Name: Developer/Project Owner Company</p>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row">
@@ -509,6 +514,13 @@
                                                                                 <p class="text-start text-grey">
                                                                                     <small>PNG, JPG, JPEG, PDF and DWG only. Maximum file size is 20MB for each files.</small>
                                                                                 </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <p class="text-start">Remarks</p>
+                                                                                <textarea rows="5" cols="55">
+                                                                                </textarea>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row">
@@ -534,121 +546,167 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Development Order</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Consultant Appointment Letter <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Single Line Diagram</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Detailed Site Development Plan <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Site Plan</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Single Line Diagram <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Meter Design & Layout</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Location Plan on Meter Panel <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Substation Layout</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Latest Development Order Plan <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>MSB Layout</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Site Plan with Proposed Sub-Station <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Fire Fighting</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Layout Plan of Sub-Station Building <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Barang Maklumat Awal</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Location and Layout Plan of Main Switch <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Relay Setting - Protection</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Meter Panel/Meter Kiosk/Meter at Gate <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Borang A & Geran</td>
-                                                <td class="text-orange fw-bold">Pending Submission</td>
-                                                <td>-</td>
+                                                <td>Substation Land: 1 Copy Borang A</td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Bank Guarantee</td>
+                                                <td>Substation Land: Bank Guarantee</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>PQ Declaration</td>
+                                                <td>Substation Land: 8 Copies Pre-Com</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>Capacitor Bank Installation</td>
+                                                <td>Substation Land: 1 Copy of Hakmilik</td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Power Quality Compliance Declaration</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MV & HV Metering: Preliminary Metering</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Protection: Relay Setting</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fire Fighting Document for Attachment</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Surat Ulasan Kebenaran Merancang TNB </td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Others</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
                                             </tr>
                                         </tbody>
                                     </table>
