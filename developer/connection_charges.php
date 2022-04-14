@@ -98,28 +98,45 @@
 
                                                 <form>
                                                     <div class="modal fade" id="modal_update_supply_required_date">
-                                                        <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-dialog modal-dialog-centered modal-lg">
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
                                                                     <h5 class="modal-title">Update Supply Required Date:</h5>
                                                                 </div>
                                                                 <div class="modal-body">
-                                                                    <div class="date-field">
-                                                                        <input type="date" name="" id="" class="form-control">
-                                                                        <br>
-                                                                        <div class="view-field">
-                                                                            <ul class="list-group">
-                                                                                <li class="list-group-item">
-                                                                                    <p>SRD 1: 15 January 2022</p>
-                                                                                    <p>Date: 12 December 2021</p>
-                                                                                    <p>Name: Ahmad Albab</p>
-                                                                                </li>
-                                                                                <li class="list-group-item">
-                                                                                    <p>SRD 2: 31 January 2022</p>
-                                                                                    <p>Date: 13 January 2022</p>
-                                                                                    <p>Name: Ahmad Albab</p>
-                                                                                </li>
-                                                                            </ul>
+                                                                <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <input type="datetime-local" name="" id="" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <div class="table-responsive">
+                                                                                <table class="table table-bordered text-nowrap">
+                                                                                    <thead class="text-center">
+                                                                                        <tr>
+                                                                                            <th>Version</th>
+                                                                                            <th>Supply Required Date</th>
+                                                                                            <th>Submission Date</th>
+                                                                                            <th>Submitter</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>1</td>
+                                                                                            <td>12 Dec 2021</td>
+                                                                                            <td>15 Sep 2021</td>
+                                                                                            <td>Ahmad Albab</td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>2</td>
+                                                                                            <td>15 Jan 2022</td>
+                                                                                            <td>30 Sep 2021</td>
+                                                                                            <td>Ahmad Albab</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -139,7 +156,7 @@
 
                                                 <form>
                                                     <div class="modal fade" id="modal_schedule_appointment">
-                                                        <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-dialog modal-dialog-centered modal-lg">
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
                                                                     <h5 class="modal-title">Schedule Appointment:</h5>
@@ -159,9 +176,45 @@
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12">
-                                                                            <label for="" class="form-label">Remarks:</label>
+                                                                            <label for="" class="form-label">Remarks</label>
                                                                             <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
                                                                             <p>1000 characters left</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <div class="table-responsive">
+                                                                                <table class="table table-bordered text-nowrap">
+                                                                                    <thead class="text-center">
+                                                                                        <tr>
+                                                                                            <th>Date</th>
+                                                                                            <th>Appointment Date</th>
+                                                                                            <th>Venue</th>
+                                                                                            <th>Status</th>
+                                                                                            <th>Remarks</th>
+                                                                                            <th>Remarks from TNB</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>10 Jul 2022</td>
+                                                                                            <td>22 Jul 2022 10.00 AM</td>
+                                                                                            <td>TNB Office</td>
+                                                                                            <td>Rejected</td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>15 Jul 2022</td>
+                                                                                            <td>25 Aug 2022 10.00 AM</td>
+                                                                                            <td>TNB Office</td>
+                                                                                            <td>Rejected</td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
