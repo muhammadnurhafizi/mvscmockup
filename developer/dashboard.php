@@ -68,7 +68,6 @@
                                                 <th>Developer</th>
                                                 <th>Last Updated On</th>
                                                 <th>Project Number</th>
-                                                <th>Percentage</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
@@ -79,7 +78,6 @@
                                                 <td>KV Construction</td>
                                                 <td class="fw-bold">6 July 2022</td>
                                                 <td>DPZAC201780</td>
-                                                <td class="text-blue fw-bold">100%</td>
                                                 <td class="text-nowrap">
                                                     <button class="btn btn-link text-blue">Rename</button> | 
                                                     <a href="technical_document.php" class="btn btn-link text-blue">View</a>
@@ -91,7 +89,6 @@
                                                 <td>ABA Hold</td>
                                                 <td class="fw-bold">20 June 2022</td>
                                                 <td>DPZAC201782</td>
-                                                <td class="text-blue fw-bold">30%</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Rename</button> | 
                                                     <button class="btn btn-link text-blue">View</button>
@@ -103,7 +100,6 @@
                                                 <td>Baris Hadapan Sdn Bhd</td>
                                                 <td class="fw-bold">4 April 2022</td>
                                                 <td>DPZAC201999</td>
-                                                <td class="text-blue fw-bold">45%</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Rename</button> | 
                                                     <button class="btn btn-link text-blue">View</button>
