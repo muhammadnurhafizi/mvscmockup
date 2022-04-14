@@ -326,7 +326,59 @@
                                                 <td>22 July 2022</td>
                                                 <td>25 August 2022</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">View</button>
+                                                    <button data-bs-toggle="modal" data-bs-target="#modal_view_developer_project_owner_company" class="btn btn-link text-blue">View</button>
+
+                                                    <form action="">
+                                                        <div class="modal fade" id="modal_view_developer_project_owner_company">
+                                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">Document Name: Developer/Project Owner Company</h5>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <div class="table-responsive">
+                                                                                    <table class="table table-bordered text-nowrap">
+                                                                                        <thead>
+                                                                                            <tr>
+                                                                                                <th>Submission</th>
+                                                                                                <th>Date</th>
+                                                                                                <th>Process</th>
+                                                                                                <th>Comment</th>
+                                                                                                <th>Attachment</th>
+                                                                                            </tr>
+                                                                                        </thead>
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td>1</td>
+                                                                                                <td>22 Jul 2022</td>
+                                                                                                <td>Submission</td>
+                                                                                                <td></td>
+                                                                                                <td></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>1</td>
+                                                                                                <td>25 Aug 2022</td>
+                                                                                                <td>Review</td>
+                                                                                                <td>Please provide image</td>
+                                                                                                <td></td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <div class="w-100 d-flex justify-content-around">
+                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green mx-auto">Back</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -346,44 +398,7 @@
                                                 <td>22 July 2022</td>
                                                 <td>25 August 2022</td>
                                                 <td>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modal_view_single_line_diagram" class="btn btn-link text-blue">View</button>
-
-                                                    <form action="">
-                                                        <div class="modal fade" id="modal_view_single_line_diagram">
-                                                            <div class="modal-dialog modal-dialog-centered">
-                                                                <div class="modal-content">
-                                                                    <div class="modal-header">
-                                                                        <h5 class="modal-title">Document Name: Single Line Diagram</h5>
-                                                                    </div>
-                                                                    <div class="modal-body">
-                                                                        <div class="view-field">
-                                                                            <ul class="list-group">
-                                                                                <li class="list-group-item">
-                                                                                    <p>22 Jul 2022 (Submission 2)</p>
-                                                                                    <p>Document submitted</p>
-                                                                                </li>
-                                                                                <li class="list-group-item">
-                                                                                    <p>15 Jul 2022 (Submission 1)</p>
-                                                                                    <p>Document rejected</p>
-                                                                                    <p>Comments:</p>
-                                                                                    <p>Please provide the image as well</p>
-                                                                                </li>
-                                                                                <li class="list-group-item">
-                                                                                    <p>10 Jul 2022 (Submission 1)</p>
-                                                                                    <p>Document submitted</p>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="modal-footer">
-                                                                        <div class="w-100 d-flex justify-content-around">
-                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Back</button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
+                                                    <button class="btn btn-link text-blue">View</button>
                                                 </td>
                                             </tr>
                                             <tr>
