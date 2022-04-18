@@ -335,23 +335,23 @@
                                                                         </div>
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">SRD</small></label>
-                                                                            <input type="text" name="" id="Lorem ipsum" class="form-control" value="Lorem ipsum" >                                          
+                                                                            <p>Lorem ipsum</p>                                          
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">MD</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
+                                                                            <p>Lorem ipsum</p>                                          
                                                                         </div>
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">PROJECT NUMBER</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
+                                                                            <p>Lorem ipsum</p>                                          
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">SR</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
+                                                                            <p>Lorem ipsum</p>                                         
                                                                         </div>
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">DEVELOPER</small></label>
@@ -361,7 +361,7 @@
                                                                     <div class="row mb-3">
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">APPLICATION NUMBER</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
+                                                                            <p>Lorem ipsum</p>                                         
                                                                         </div>
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">CONSULTANT</small></label>
