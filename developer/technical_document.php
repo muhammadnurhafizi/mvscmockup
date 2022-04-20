@@ -541,7 +541,7 @@
                                                                                                 <td><input type="text" class="form-control"></td>
                                                                                             </tr>
                                                                                             <tr>
-                                                                                                <th>Name of Consultant Engineer</th>
+                                                                                                <th>Name of Electrical Contractor</th>
                                                                                                 <td><input type="text" class="form-control"></td>
                                                                                             </tr>
                                                                                             <tr>
