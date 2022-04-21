@@ -303,11 +303,17 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <small class="text-muted">Last updated on</small>
+                                                    <small class="text-muted">Application Number</small>
                                                     <p>Lorem ipsum</p>
                                                 </td>
                                                 <td>
                                                     <small class="text-muted">Consultant</small>
+                                                    <p>Lorem ipsum</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <small class="text-muted">Last updated on</small>
                                                     <p>Lorem ipsum</p>
                                                 </td>
                                             </tr>
@@ -335,23 +341,23 @@
                                                                         </div>
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">SRD</small></label>
-                                                                            <p>Lorem ipsum</p>                                          
+                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                          
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">MD</small></label>
-                                                                            <p>Lorem ipsum</p>                                          
+                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                           
                                                                         </div>
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">PROJECT NUMBER</small></label>
-                                                                            <p>Lorem ipsum</p>                                          
+                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                           
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">SR</small></label>
-                                                                            <p>Lorem ipsum</p>                                          
+                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                           
                                                                         </div>
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">DEVELOPER</small></label>
@@ -361,20 +367,26 @@
                                                                     <div class="row mb-3">
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">APPLICATION NUMBER</small></label>
-                                                                            <p>Lorem ipsum</p>                                          
+                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                          
                                                                         </div>
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">CONSULTANT</small></label>
                                                                             <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
                                                                         </div>
-                                                                    </div>                     
+                                                                    </div>  
                                                                     <div class="row mb-3">
-                                                                            <div class="col-12" >
-                                                                                <label for="" class="form-label"><small class="text-muted">DESCRIPTION</small></label>
-                                                                                <textarea name="" id="" rows="5" class="form-control">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci culpa quisquam ratione quas expedita eaque excepturi facere explicabo numquam possimus, illum cupiditate, labore consequatur voluptas fugiat molestiae laudantium perspiciatis minus?</textarea>
-                                                                            </div>
+                                                                        <div class="col-12 col-lg-6" >
+                                                                            <label for="" class="form-label"><small class="text-muted">LAST UPDATED ON</small></label>
+                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly> 
+                                                                        </div>
+                                                                    </div>                   
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12" >
+                                                                            <label for="" class="form-label"><small class="text-muted">DESCRIPTION</small></label>
+                                                                            <textarea name="" id="" rows="5" class="form-control">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci culpa quisquam ratione quas expedita eaque excepturi facere explicabo numquam possimus, illum cupiditate, labore consequatur voluptas fugiat molestiae laudantium perspiciatis minus?</textarea>
                                                                         </div>
                                                                     </div>
+                                                                </div>
                                                                 <div class="modal-footer">
                                                                     <div class="d-flex justify-content-around">
                                                                         <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>

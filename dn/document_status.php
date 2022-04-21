@@ -87,9 +87,11 @@
                                                 <td>Developer:</td>
                                             </tr>
                                             <tr>
-                                                <td>Last updated on:</td>
+                                                <td>Application Number:</td>
                                                 <td>Consultant:</td>
-                                                
+                                            </tr>
+                                            <tr>
+                                                <td>Last updated on:</td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2">Description:</td>
