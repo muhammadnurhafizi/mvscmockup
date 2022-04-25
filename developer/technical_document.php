@@ -435,155 +435,211 @@
                                                     | <button data-bs-toggle="modal" data-bs-target="#modal_form_map_a" class="btn btn-link text-blue">Upload</button>
 
                                                     <form action="">
-                                                        <div class="modal fade" id="modal_form_map_a">
+                                                        <div class="modal fade text-start" id="modal_form_map_a">
                                                             <div class="modal-dialog modal-dialog-centered modal-xl">
                                                                 <div class="modal-content">
                                                                     <div class="modal-header">
                                                                         <h5 class="modal-title">Document Name: Map A</h5>
                                                                     </div>
                                                                     <div class="modal-body">
-                                                                        <div class="row">
-                                                                            <div class="col-12">
-                                                                                <div class="table-responsive">
-                                                                                    <table class="table table-bordered text-nowrap align-middle text-start">
-                                                                                        <tbody>
-                                                                                            <tr>
-                                                                                                <th>Address of Installation</th>
-                                                                                                <td class="w-100" style="width:100%;"><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Site Location (Lot & Mk No.)</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Single Tenancy or Multi-Tenanted Premise</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Type of Premise</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Total Gross Built-In Floor Area</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Total Land Area</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Name of Architect</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Address</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Telephone No.</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Fax No.</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Email Address</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Name of Surveyor</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Address</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Telephone No.</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Fax No.</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Email Address</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Name of Owner/Developer</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Address</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Telephone No.</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Fax No.</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Email Address</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Name of Consultant/Engineer</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Address</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Telephone No.</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Fax No.</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Email Address</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Name of Electrical Contractor</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Address</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Telephone No.</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Fax No.</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Email Address</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Date Supply Required (Final) MD (Kw)</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th>Date Supply Required (Final)</th>
-                                                                                                <td><input type="text" class="form-control"></td>
-                                                                                            </tr>
-                                                                                        </tbody>
-                                                                                    </table>      
-                                                                                </div>
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Address of Installation</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Site Location (Lot & Mk No.)</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Single Tenancy or Multi-Tenanted Premise</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Type of Premise</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Total Gross Built-In Floor Area</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Total Land Area</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Name of Architect</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Address</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Telephone No.</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Fax No.</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Email Address</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Name of Surveyor</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Address</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Telephone No.</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Fax No.</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Email Address</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Name of Owner/Developer</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Address</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Telephone No.</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Fax No.</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Email Address</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Name of Consultant/Engineer</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Address</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Telephone No.</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Fax No.</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Email Address</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Name of Electrical Contractor</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Address</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Telephone No.</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Fax No.</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Email Address</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
                                                                             </div>
                                                                         </div>
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Date Supply Required (Final) MD (Kw)</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Date Supply Required (Final)</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
                                                                     </div>
                                                                     <div class="modal-footer">
                                                                         <div class="w-100 d-flex justify-content-around">
