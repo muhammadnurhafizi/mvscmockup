@@ -334,7 +334,7 @@
                                                                     <h5 class="modal-title">General Information:</h5>
                                                                 </div>
                                                                 <div class="modal-body">
-                                                                <div class="row mb-3">
+                                                                    <div class="row mb-3">
                                                                         <div class="col-12 col-lg-6" >
                                                                             <label for="" class="form-label"><small class="text-muted">TETUAN</small></label>
                                                                             <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
@@ -449,7 +449,7 @@
                                                                                         <tbody>
                                                                                             <tr>
                                                                                                 <th>Address of Installation</th>
-                                                                                                <td class="w-100"><input type="text" class="form-control"></td>
+                                                                                                <td class="w-100" style="width:100%;"><input type="text" class="form-control"></td>
                                                                                             </tr>
                                                                                             <tr>
                                                                                                 <th>Site Location (Lot & Mk No.)</th>
@@ -604,7 +604,331 @@
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Delete</button>
-                                                    | <button class="btn btn-link text-blue">Upload</button>
+                                                    | <button data-bs-toggle="modal" data-bs-target="#modal_view_building" class="btn btn-link text-blue">Upload</button>
+
+                                                    <!-- Modal view building -->
+                                                    <div class="modal fade" id="modal_view_building">
+                                                        <div class="modal-dialog modal-dialog-centered  modal-xl" >
+                                                            <div class="modal-content">
+                                                                <div class="modal-header d-block">
+                                                                    <div class="row mb-2">
+                                                                        <div class="col-12">
+                                                                            <h5 class="modal-title text-start">Building List</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-2">
+                                                                        <div class="col-12">
+                                                                            <div class="justify-content-between d-flex align-items-end">
+                                                                                <h6 class="modal-title mb-0">Add New Building</h6>
+                                                                                <button data-bs-toggle="modal" data-bs-target="#modal_add_building" class="btn btn-sm btn-green-active rounded-circle"><i class="fas fa-plus"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-12">
+                                                                            <div class="table-responsive">
+                                                                                <table class="table table-bordered table-upload">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th>Number</th>
+                                                                                            <th>Building Name</th>
+                                                                                            <th>Action</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>1</td>
+                                                                                            <td>Tower A</td>
+                                                                                            <td>
+                                                                                            <button data-bs-toggle="modal" data-bs-target="#modal_view_msb" class="btn btn-link text-blue">View</button>
+                                                                                                | <button data-bs-toggle="modal" data-bs-target="#modal_add_building" class="btn btn-link text-blue">Edit</button>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>2</td>
+                                                                                            <td>Tower B</td>
+                                                                                            <td>
+                                                                                                <button class="btn btn-link text-blue">View</button>
+                                                                                                | <button class="btn btn-link text-blue">Edit</button>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>      
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal add/edit building -->
+                                                    <form action="">
+                                                    <div class="modal fade text-start" id="modal_add_building">
+                                                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                                                            <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">Building Details</h5>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <label class="col-sm-2 col-form-label ">Building Name</label>
+                                                                            <div class="col-sm-10">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <div class="w-100 d-flex justify-content-around">
+                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                            <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <!-- Modal view msb -->
+                                                    <div class="modal fade" id="modal_view_msb">
+                                                        <div class="modal-dialog modal-dialog-centered  modal-xl" >
+                                                            <div class="modal-content">
+                                                                <div class="modal-header d-block">
+                                                                <div class="row mb-2">
+                                                                        <div class="col-12">
+                                                                            <h5 class="modal-title text-start">Building Name: Tower A</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-2">
+                                                                        <div class="col-12">
+                                                                            <h5 class="modal-title text-start">MSB List</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-2">
+                                                                        <div class="col-12">
+                                                                            <div class="justify-content-between d-flex align-items-end">
+                                                                                <h6 class="modal-title mb-0">Add New MSB</h6>
+                                                                                <button data-bs-toggle="modal" data-bs-target="#modal_add_msb" class="btn btn-sm btn-green-active rounded-circle"><i class="fas fa-plus"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-12">
+                                                                            <div class="table-responsive">
+                                                                                <table class="table table-bordered table-upload">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th>Number</th>
+                                                                                            <th>MSB Name</th>
+                                                                                            <th>Action</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>1</td>
+                                                                                            <td>MSB A</td>
+                                                                                            <td>
+                                                                                            <button data-bs-toggle="modal" data-bs-target="#modal_view_premis" class="btn btn-link text-blue">View</button>
+                                                                                                | <button data-bs-toggle="modal" data-bs-target="#modal_add_msb" class="btn btn-link text-blue">Edit</button>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>2</td>
+                                                                                            <td>MSB B</td>
+                                                                                            <td>
+                                                                                                <button class="btn btn-link text-blue">View</button>
+                                                                                                | <button class="btn btn-link text-blue">Edit</button>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>      
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal add/edit msb -->
+                                                    <form action="">
+                                                    <div class="modal fade text-start" id="modal_add_msb">
+                                                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                                                            <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">MSB Details</h5>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <label class="col-sm-2 col-form-label ">MSB Name</label>
+                                                                            <div class="col-sm-10">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <div class="w-100 d-flex justify-content-around">
+                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                            <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <!-- Modal view premis -->
+                                                    <div class="modal fade" id="modal_view_premis">
+                                                        <div class="modal-dialog modal-dialog-centered  modal-xl" >
+                                                            <div class="modal-content">
+                                                                <div class="modal-header d-block">
+                                                                <div class="row mb-2">
+                                                                        <div class="col-12">
+                                                                            <h5 class="modal-title text-start">MSB Name: MSB A</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-2">
+                                                                        <div class="col-12">
+                                                                            <h5 class="modal-title text-start">Premise List</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-2">
+                                                                        <div class="col-12">
+                                                                            <div class="justify-content-between d-flex align-items-end">
+                                                                                <h6 class="modal-title mb-0">Add New Premise</h6>
+                                                                                <button data-bs-toggle="modal" data-bs-target="#modal_add_premis" class="btn btn-sm btn-green-active rounded-circle"><i class="fas fa-plus"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-12">
+                                                                            <div class="table-responsive">
+                                                                                <table class="table table-bordered table-upload">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th>Number</th>
+                                                                                            <th>Premise Name</th>
+                                                                                            <th>Action</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>1</td>
+                                                                                            <td>Premise A</td>
+                                                                                            <td>
+                                                                                                <button data-bs-toggle="modal" data-bs-target="#modal_add_premis" class="btn btn-link text-blue">Edit</button>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>2</td>
+                                                                                            <td>Premise B</td>
+                                                                                            <td>
+                                                                                                <button class="btn btn-link text-blue">Edit</button>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>      
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal add/edit premis -->
+                                                    <form action="">
+                                                    <div class="modal fade text-start" id="modal_add_premis">
+                                                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                                                            <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">Premise Details</h5>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Premise Name</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">No of Units</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Tariff</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Total Connected Load (kW)/Unit</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Individual Coincident Factor</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">kWMD/Unit</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Total kWMD</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Supply Connection Scheme (Underground/Overhead)</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Voltage Level</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">No of Meters</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Meter Type</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">CT Size (if applicable)</label>
+                                                                            <div class="col-sm-8">
+                                                                                <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <div class="w-100 d-flex justify-content-around">
+                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                            <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -909,6 +1233,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="../js/app.js"></script>
 </body>
 </html>
