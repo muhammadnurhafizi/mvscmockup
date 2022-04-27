@@ -740,7 +740,7 @@
                                                                         </div>
                                                                         <div class="modal-footer">
                                                                             <div class="w-100 d-flex justify-content-around">
-                                                                                <button  data-bs-target="#modal_view_building" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                                <button  data-bs-target="#modal_view_building" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-outline btn-green" type="button">Cancel</button>
                                                                                 <button type="submit" class="btn btn-green-active">Submit</button>
                                                                             </div>
                                                                         </div>
@@ -831,7 +831,7 @@
                                                                         </div>
                                                                         <div class="modal-footer">
                                                                             <div class="w-100 d-flex justify-content-around">
-                                                                                <button  data-bs-target="#modal_view_msb" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                                <button  data-bs-target="#modal_view_msb" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-outline btn-green" type="button">Cancel</button>
                                                                                 <button type="submit" class="btn btn-green-active">Submit</button>
                                                                             </div>
                                                                         </div>
@@ -986,7 +986,7 @@
                                                                     </div>
                                                                     <div class="modal-footer">
                                                                         <div class="w-100 d-flex justify-content-around">
-                                                                            <button  data-bs-target="#modal_view_premis" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                            <button  data-bs-target="#modal_view_premis" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-outline btn-green" type="button">Cancel</button>
                                                                             <button type="submit" class="btn btn-green-active">Submit</button>
                                                                         </div>
                                                                     </div>
@@ -994,7 +994,7 @@
                                                             </div>
                                                         </div>
                                                     </form>
-                                                    
+
                                                 </td>
                                             </tr>
                                             <tr>
