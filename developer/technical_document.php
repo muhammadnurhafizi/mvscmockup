@@ -662,23 +662,23 @@
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Delete</button>
-                                                    | <button data-bs-toggle="modal" data-bs-target="#modal_view_building" class="btn btn-link text-blue">Upload</button>
+                                                    | <a class="btn btn-link text-blue" data-bs-toggle="modal" href="#modal_view_building" role="button">Upload</a>
 
                                                     <!-- Modal view building -->
-                                                    <div class="modal fade" id="modal_view_building">
+                                                    <div class="modal fade" id="modal_view_building" aria-hidden="true" aria-labelledby="modal_view_building_label" tabindex="-1">
                                                         <div class="modal-dialog modal-dialog-centered  modal-xl" >
                                                             <div class="modal-content">
                                                                 <div class="modal-header d-block">
                                                                     <div class="row mb-2">
                                                                         <div class="col-12">
-                                                                            <h5 class="modal-title text-start">Building List</h5>
+                                                                            <h5 class="modal-title text-start" id="modal_view_building_label">Building List</h5>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-2">
                                                                         <div class="col-12">
                                                                             <div class="justify-content-between d-flex align-items-end">
                                                                                 <h6 class="modal-title mb-0">Add New Building</h6>
-                                                                                <button data-bs-toggle="modal" data-bs-target="#modal_add_building" class="btn btn-sm btn-green-active rounded-circle"><i class="fas fa-plus"></i></button>
+                                                                                <button class="btn btn-sm btn-green-active rounded-circle" data-bs-target="#modal_add_building" data-bs-toggle="modal" data-bs-dismiss="modal"><i class="fas fa-plus"></i></button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -700,8 +700,8 @@
                                                                                             <td>1</td>
                                                                                             <td>Tower A</td>
                                                                                             <td>
-                                                                                            <button data-bs-toggle="modal" data-bs-target="#modal_view_msb" class="btn btn-link text-blue">View</button>
-                                                                                                | <button data-bs-toggle="modal" data-bs-target="#modal_add_building" class="btn btn-link text-blue">Edit</button>
+                                                                                            <a class="btn btn-link text-blue" data-bs-toggle="modal" href="#modal_view_msb" role="button">View</a>
+                                                                                                | <button data-bs-target="#modal_add_building" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-link text-blue">Edit</button>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
@@ -721,40 +721,43 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                     <!-- Modal add/edit building -->
                                                     <form action="">
-                                                    <div class="modal fade text-start" id="modal_add_building">
-                                                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                                                            <div class="modal-content">
-                                                                    <div class="modal-header">
-                                                                        <h5 class="modal-title">Building Details</h5>
-                                                                    </div>
-                                                                    <div class="modal-body">
-                                                                        <div class="row">
-                                                                            <label class="col-sm-2 col-form-label ">Building Name</label>
-                                                                            <div class="col-sm-10">
-                                                                                <input  class="form-control">
+                                                        <div class="modal fade text-start" id="modal_add_building" aria-hidden="true" aria-labelledby="modal_add_building_label" tabindex="-1">
+                                                            <div class="modal-dialog modal-xl modal-dialog-centered">
+                                                                <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                            <h5 class="modal-title" id="modal_view_building_label">Building Details</h5>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                            <div class="row">
+                                                                                <label class="col-sm-2 col-form-label ">Building Name</label>
+                                                                                <div class="col-sm-10">
+                                                                                    <input  class="form-control">
+                                                                                </div>
+                                                                            </div> 
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                            <div class="w-100 d-flex justify-content-around">
+                                                                                <button  data-bs-target="#modal_view_building" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                                <button type="submit" class="btn btn-green-active">Submit</button>
                                                                             </div>
-                                                                        </div> 
-                                                                    </div>
-                                                                    <div class="modal-footer">
-                                                                        <div class="w-100 d-flex justify-content-around">
-                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
-                                                                            <button type="submit" class="btn btn-green-active">Submit</button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </form>
+                                                    
                                                     <!-- Modal view msb -->
-                                                    <div class="modal fade" id="modal_view_msb">
+                                                    <div class="modal fade" id="modal_view_msb" aria-hidden="true" aria-labelledby="modal_view_msb_label" tabindex="-1">
                                                         <div class="modal-dialog modal-dialog-centered  modal-xl" >
                                                             <div class="modal-content">
                                                                 <div class="modal-header d-block">
-                                                                <div class="row mb-2">
+                                                                    <div class="row mb-2">
                                                                         <div class="col-12">
-                                                                            <h5 class="modal-title text-start">Building Name: Tower A</h5>
+                                                                            <h5 class="modal-title text-start" id="modal_view_msb_label">Building Name: Tower A</h5>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-2">
@@ -766,7 +769,7 @@
                                                                         <div class="col-12">
                                                                             <div class="justify-content-between d-flex align-items-end">
                                                                                 <h6 class="modal-title mb-0">Add New MSB</h6>
-                                                                                <button data-bs-toggle="modal" data-bs-target="#modal_add_msb" class="btn btn-sm btn-green-active rounded-circle"><i class="fas fa-plus"></i></button>
+                                                                                <button class="btn btn-sm btn-green-active rounded-circle" data-bs-target="#modal_add_msb" data-bs-toggle="modal" data-bs-dismiss="modal"><i class="fas fa-plus"></i></button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -788,8 +791,8 @@
                                                                                             <td>1</td>
                                                                                             <td>MSB A</td>
                                                                                             <td>
-                                                                                            <button data-bs-toggle="modal" data-bs-target="#modal_view_premis" class="btn btn-link text-blue">View</button>
-                                                                                                | <button data-bs-toggle="modal" data-bs-target="#modal_add_msb" class="btn btn-link text-blue">Edit</button>
+                                                                                            <a class="btn btn-link text-blue" data-bs-toggle="modal" href="#modal_view_premis" role="button">View</a>
+                                                                                                | <button data-bs-target="#modal_add_msb" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-link text-blue">Edit</button>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
@@ -809,40 +812,43 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                     <!-- Modal add/edit msb -->
                                                     <form action="">
-                                                    <div class="modal fade text-start" id="modal_add_msb">
-                                                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                                                            <div class="modal-content">
-                                                                    <div class="modal-header">
-                                                                        <h5 class="modal-title">MSB Details</h5>
-                                                                    </div>
-                                                                    <div class="modal-body">
-                                                                        <div class="row">
-                                                                            <label class="col-sm-2 col-form-label ">MSB Name</label>
-                                                                            <div class="col-sm-10">
-                                                                                <input  class="form-control">
+                                                        <div class="modal fade text-start" id="modal_add_msb" aria-hidden="true" aria-labelledby="modal_add_msb_label" tabindex="-1">
+                                                            <div class="modal-dialog modal-xl modal-dialog-centered">
+                                                                <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                            <h5 class="modal-title" id="modal_view_msb_label">MSB Details</h5>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                            <div class="row">
+                                                                                <label class="col-sm-2 col-form-label ">MSB Name</label>
+                                                                                <div class="col-sm-10">
+                                                                                    <input  class="form-control">
+                                                                                </div>
+                                                                            </div> 
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                            <div class="w-100 d-flex justify-content-around">
+                                                                                <button  data-bs-target="#modal_view_msb" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                                <button type="submit" class="btn btn-green-active">Submit</button>
                                                                             </div>
-                                                                        </div> 
-                                                                    </div>
-                                                                    <div class="modal-footer">
-                                                                        <div class="w-100 d-flex justify-content-around">
-                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
-                                                                            <button type="submit" class="btn btn-green-active">Submit</button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </form>
+                                                    
                                                     <!-- Modal view premis -->
-                                                    <div class="modal fade" id="modal_view_premis">
+                                                    <div class="modal fade" id="modal_view_premis" aria-hidden="true" aria-labelledby="modal_view_premis_label" tabindex="-1">
                                                         <div class="modal-dialog modal-dialog-centered  modal-xl" >
                                                             <div class="modal-content">
                                                                 <div class="modal-header d-block">
-                                                                <div class="row mb-2">
+                                                                    <div class="row mb-2">
                                                                         <div class="col-12">
-                                                                            <h5 class="modal-title text-start">MSB Name: MSB A</h5>
+                                                                            <h5 class="modal-title text-start" id="modal_view_premis_label">MSB Name: MSB A</h5>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-2">
@@ -854,7 +860,7 @@
                                                                         <div class="col-12">
                                                                             <div class="justify-content-between d-flex align-items-end">
                                                                                 <h6 class="modal-title mb-0">Add New Premise</h6>
-                                                                                <button data-bs-toggle="modal" data-bs-target="#modal_add_premis" class="btn btn-sm btn-green-active rounded-circle"><i class="fas fa-plus"></i></button>
+                                                                                <button class="btn btn-sm btn-green-active rounded-circle" data-bs-target="#modal_add_premis" data-bs-toggle="modal" data-bs-dismiss="modal"><i class="fas fa-plus"></i></button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -864,7 +870,7 @@
                                                                         <div class="col-12">
                                                                             <div class="table-responsive">
                                                                                 <table class="table table-bordered table-upload">
-                                                                                    <thead>
+                                                                                <thead>
                                                                                         <tr>
                                                                                             <th>Number</th>
                                                                                             <th>Premise Name</th>
@@ -876,7 +882,7 @@
                                                                                             <td>1</td>
                                                                                             <td>Premise A</td>
                                                                                             <td>
-                                                                                                <button data-bs-toggle="modal" data-bs-target="#modal_add_premis" class="btn btn-link text-blue">Edit</button>
+                                                                                                <button data-bs-target="#modal_add_premis" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-link text-blue">Edit</button>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
@@ -895,13 +901,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                     <!-- Modal add/edit premis -->
                                                     <form action="">
-                                                    <div class="modal fade text-start" id="modal_add_premis">
-                                                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                                                            <div class="modal-content">
+                                                        <div class="modal fade text-start" id="modal_add_premis" aria-hidden="true" aria-labelledby="modal_add_premis_label" tabindex="-1">
+                                                            <div class="modal-dialog modal-xl modal-dialog-centered">
+                                                                <div class="modal-content">
                                                                     <div class="modal-header">
-                                                                        <h5 class="modal-title">Premise Details</h5>
+                                                                        <h5 class="modal-title" id="modal_view_premis_label">Premise Details</h5>
                                                                     </div>
                                                                     <div class="modal-body">
                                                                         <div class="row mb-3">
@@ -979,7 +986,7 @@
                                                                     </div>
                                                                     <div class="modal-footer">
                                                                         <div class="w-100 d-flex justify-content-around">
-                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                            <button  data-bs-target="#modal_view_premis" data-bs-toggle="modal" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
                                                                             <button type="submit" class="btn btn-green-active">Submit</button>
                                                                         </div>
                                                                     </div>
@@ -987,6 +994,7 @@
                                                             </div>
                                                         </div>
                                                     </form>
+                                                    
                                                 </td>
                                             </tr>
                                             <tr>
