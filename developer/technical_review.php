@@ -137,6 +137,16 @@
                                                                                     </tbody>
                                                                                 </table>
                                                                             </div>
+                                                                            <p>
+                                                                                <small>
+                                                                                    Note: The update Supply Required Date submitted will be sent for processing daily at 12:00AM. 
+                                                                                    Only the latest update submitted will be sent for processing.
+                                                                                </small>
+                                                                                <br>
+                                                                                <small>
+                                                                                    New Supply Required Date can only be set 2 months after the current date.
+                                                                                </small>
+                                                                            </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
