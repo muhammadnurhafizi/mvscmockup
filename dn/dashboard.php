@@ -60,13 +60,99 @@
                             </div>
                             <div class="card-body">
                                 <div class="row mb-3">
-                                    <div class="col-12">
+                                    <div class="col-12 col-md-4 col-lg-2 mb-3">
+                                        <select name="" id="" class="form-select">
+                                            <option value="" disabled selected>Basic Info</option>
+                                            <option value="">Tetuan</option>
+                                            <option value="">SRD</option>
+                                            <option value="">MD</option>
+                                            <option value="">Project No</option>
+                                            <option value="">SR</option>
+                                            <option value="">Developer</option>
+                                            <option value="">Application Number</option>
+                                            <option value="">Consultant</option>
+                                            <option value="">Last Updated On</option>
+                                            <option value="">Description</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-10 mb-3">
                                         <form>
                                             <div class="input-group">
                                                 <input type="text" class="form-control">
                                                 <button class="btn btn-success">Search</button>
                                             </div>
                                         </form>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-12 col-md-4 col-lg-2 mb-3">
+                                        <div class="form-floating">
+                                            <select name="" id="" class="form-select">
+                                                <option value="" disabled selected>-- Select --</option>
+                                                <option value="">North 1</option>
+                                                <option value="">North 2</option>
+                                                <option value="">Central 1</option>
+                                                <option value="">Central 2</option>
+                                                <option value="">South 1</option>
+                                                <option value="">South 2</option>
+                                                <option value="">East</option>
+                                            </select>
+                                            <label>Zone</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-2 mb-3">
+                                        <div class="form-floating">
+                                            <select name="" id="" class="form-select">
+                                                <option value="" disabled selected>-- Select --</option>
+                                                <option value="">Penang</option>
+                                                <option value="">Perlis</option>
+                                                <option value="">Kedah</option>
+                                                <option value="">Perak</option>
+                                                <option value="">Selangor</option>
+                                                <option value="">PJCJ</option>
+                                                <option value="">KL</option>
+                                                <option value="">Johor 1</option>
+                                                <option value="">Johor 2</option>
+                                                <option value="">Melaka</option>
+                                                <option value="">Negeri Sembilan</option>
+                                                <option value="">Kelantan</option>
+                                                <option value="">Pahang</option>
+                                                <option value="">Terengganu</option>
+                                            </select>
+                                            <label>Area</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-2">
+                                        
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-2 mb-3">
+                                        <div class="form-floating">
+                                            <select name="" id="" class="form-select">
+                                                <option value="" disabled selected>-- Select --</option>
+                                                <option value="">Technical Document Submission</option>
+                                                <option value="">Technical Review</option>
+                                                <option value="">Connection Charges</option>
+                                                <option value="">Completed</option>
+                                            </select>
+                                            <label>Stages</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-2 mb-3">
+                                        <div class="form-floating">
+                                            <input type="date" name="" id="" class="form-control">
+                                            <label>Start Date</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-2 mb-3">
+                                        <div class="form-floating">
+                                            <input type="date" name="" id="" class="form-control">
+                                            <label>End Date</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <button class="btn btn-success float-end">Download List</button>
                                     </div>
                                 </div>
                                 <div class="row">
