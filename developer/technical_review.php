@@ -170,6 +170,24 @@
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12">
+                                                                            <label for="" class="form-label">Name:</label>
+                                                                            <input type="text" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Contact Number:</label>
+                                                                            <input type="text" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Time:</label>
+                                                                            <input type="text" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
                                                                             <label for="" class="form-label">Venue:</label>
                                                                             <input type="text" class="form-control">
                                                                         </div>
@@ -215,13 +233,15 @@
                                                                                     </tbody>
                                                                                 </table>
                                                                             </div>
+                                                                            <p>Note: The appointment request submitted will be sent for processing daily at 12:00AM. Only the latest appoitment request submitted will be sent for processing. Appointment can only be set 7 days after the current date.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <div class="w-100 d-flex justify-content-around">
-                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
-                                                                        <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green col-3">Cancel</button>
+                                                                        <button type="button" class="btn btn-green-active float-right">Cancel Appointment</button>
+                                                                        <button type="submit" class="btn btn-green-active col-3">Submit</button>
                                                                     </div>
                                                                 </div>
                                                             </div>

@@ -158,7 +158,7 @@
 
                                                 <form>
                                                     <div class="modal fade" id="modal_schedule_appointment">
-                                                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                        <div class="modal-dialog modal-dialog-centered modal-lg ">
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
                                                                     <h5 class="modal-title">Schedule Appointment:</h5>
@@ -168,6 +168,24 @@
                                                                         <div class="col-12">
                                                                             <label for="" class="form-label">Appointment Date:</label>
                                                                             <input type="datetime-local" name="" id="" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Name:</label>
+                                                                            <input type="text" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Contact Number:</label>
+                                                                            <input type="text" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-12">
+                                                                            <label for="" class="form-label">Time:</label>
+                                                                            <input type="text" class="form-control">
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mb-3">
@@ -217,13 +235,15 @@
                                                                                     </tbody>
                                                                                 </table>
                                                                             </div>
+                                                                            <p>Note: The appointment request submitted will be sent for processing daily at 12:00AM. Only the latest appoitment request submitted will be sent for processing. Appointment can only be set 7 days after the current date.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <div class="w-100 d-flex justify-content-around">
-                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
-                                                                        <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green col-3">Cancel</button>
+                                                                        <button type="button" class="btn btn-green-active float-right">Cancel Appointment</button>
+                                                                        <button type="submit" class="btn btn-green-active col-3">Submit</button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -434,7 +454,7 @@
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Delete</button>
-                                                    | <button data-bs-toggle="modal" data-bs-target="#modal_form_map_a" class="btn btn-link text-blue">Upload</button>
+                                                    | <button data-bs-toggle="modal" data-bs-target="#modal_form_map_a" class="btn btn-link text-blue">Submit</button>
 
                                                     <form action="">
                                                         <div class="modal fade text-start" id="modal_form_map_a">
@@ -662,7 +682,7 @@
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Delete</button>
-                                                    | <a class="btn btn-link text-blue" data-bs-toggle="modal" href="#modal_view_building" role="button">Upload</a>
+                                                    | <a class="btn btn-link text-blue" data-bs-toggle="modal" href="#modal_view_building" role="button">Submit</a>
 
                                                     <!-- Modal view building -->
                                                     <div class="modal fade" id="modal_view_building" aria-hidden="true" aria-labelledby="modal_view_building_label" tabindex="-1">
