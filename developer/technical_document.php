@@ -357,7 +357,126 @@
                                         </div>
                                     </div>
                                 </div>
-                               S
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="float-end">
+                                            <button type="button" class="btn btn-outline btn-green" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                Change Tracking
+                                            </button>
+                                            <button data-bs-toggle="modal" data-bs-target="#modal_edit_information" class="btn btn-green-active">
+                                                Edit Information
+                                            </button>
+
+                                            <form>
+                                                <div class="modal fade" id="modal_edit_information">
+                                                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title">General Information:</h5>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="row mb-3">
+                                                                    <div class="col-12 col-lg-6" >
+                                                                        <label for="" class="form-label"><small class="text-muted">TETUAN</small></label>
+                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
+                                                                    </div>
+                                                                    <div class="col-12 col-lg-6" >
+                                                                        <label for="" class="form-label"><small class="text-muted">SRD</small></label>
+                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                          
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mb-3">
+                                                                    <div class="col-12 col-lg-6" >
+                                                                        <label for="" class="form-label"><small class="text-muted">MD</small></label>
+                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                           
+                                                                    </div>
+                                                                    <div class="col-12 col-lg-6" >
+                                                                        <label for="" class="form-label"><small class="text-muted">PROJECT NUMBER</small></label>
+                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                           
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mb-3">
+                                                                    <div class="col-12 col-lg-6" >
+                                                                        <label for="" class="form-label"><small class="text-muted">SR</small></label>
+                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                           
+                                                                    </div>
+                                                                    <div class="col-12 col-lg-6" >
+                                                                        <label for="" class="form-label"><small class="text-muted">DEVELOPER</small></label>
+                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mb-3">
+                                                                    <div class="col-12 col-lg-6" >
+                                                                        <label for="" class="form-label"><small class="text-muted">APPLICATION NUMBER</small></label>
+                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                          
+                                                                    </div>
+                                                                    <div class="col-12 col-lg-6" >
+                                                                        <label for="" class="form-label"><small class="text-muted">CONSULTANT</small></label>
+                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
+                                                                    </div>
+                                                                </div>  
+                                                                <div class="row mb-3">
+                                                                    <div class="col-12 col-lg-6" >
+                                                                        <label for="" class="form-label"><small class="text-muted">LAST UPDATED ON</small></label>
+                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly> 
+                                                                    </div>
+                                                                </div>                   
+                                                                <div class="row mb-3">
+                                                                    <div class="col-12" >
+                                                                        <label for="" class="form-label"><small class="text-muted">DESCRIPTION</small></label>
+                                                                        <textarea name="" id="" rows="5" class="form-control">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci culpa quisquam ratione quas expedita eaque excepturi facere explicabo numquam possimus, illum cupiditate, labore consequatur voluptas fugiat molestiae laudantium perspiciatis minus?</textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <div class="d-flex justify-content-around">
+                                                                    <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                    <button type="submit" class="btn btn-green-active">Save</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+
+                                            <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Change Tracking</h5>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <table class="table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th scope="col">Field</th>
+                                                                    <th scope="col">Name</th>
+                                                                    <th scope="col">Date</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Tetuan</td>
+                                                                    <td>Ahmad</td>
+                                                                    <td>22 Jul 2022</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Description</td>
+                                                                    <td>Albab</td>
+                                                                    <td>25 Aug 2022</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline btn-green" data-bs-dismiss="modal">Back</button>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
