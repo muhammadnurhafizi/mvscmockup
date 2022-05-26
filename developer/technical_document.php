@@ -292,142 +292,72 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-borderless">
-                                        <tbody>
-                                            <tr>
-                                                <h5>General Information:</h5>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <small class="text-muted">TETUAN</small>
-                                                    <p>Lorem ipsum</p>
-                                                </td>
-                                                <td>
-                                                    <small class="text-muted">SRD</small>
-                                                    <p>Lorem ipsum</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <small class="text-muted">MD</small>
-                                                    <p>Lorem ipsum</p>
-                                                </td>
-                                                <td>
-                                                    <small class="text-muted">Project No</small>
-                                                    <p>Lorem ipsum</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <small class="text-muted">SR</small>
-                                                    <p>Lorem ipsum</p>
-                                                </td>
-                                                <td>
-                                                    <small class="text-muted">Developer</small>
-                                                    <p>Lorem ipsum</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <small class="text-muted">Application Number</small>
-                                                    <p>Lorem ipsum</p>
-                                                </td>
-                                                <td>
-                                                    <small class="text-muted">Consultant</small>
-                                                    <p>Lorem ipsum</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <small class="text-muted">Last updated on</small>
-                                                    <p>Lorem ipsum</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="2">
-                                                    <small class="text-muted">Description</small>
-                                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam molestiae, nesciunt eum reiciendis, accusamus nostrum officia sequi rem deserunt totam ab. Temporibus consectetur officiis possimus quis sapiente consequuntur esse nemo?</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                            <td colspan="2">
-                                                <button data-bs-toggle="modal" data-bs-target="#modal_edit_information" class="btn btn-green-active float-end">Edit Information</button>
-                                                <form>
-                                                    <div class="modal fade" id="modal_edit_information">
-                                                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title">General Information:</h5>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12 col-lg-6" >
-                                                                            <label for="" class="form-label"><small class="text-muted">TETUAN</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
-                                                                        </div>
-                                                                        <div class="col-12 col-lg-6" >
-                                                                            <label for="" class="form-label"><small class="text-muted">SRD</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                          
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12 col-lg-6" >
-                                                                            <label for="" class="form-label"><small class="text-muted">MD</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                           
-                                                                        </div>
-                                                                        <div class="col-12 col-lg-6" >
-                                                                            <label for="" class="form-label"><small class="text-muted">PROJECT NUMBER</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                           
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12 col-lg-6" >
-                                                                            <label for="" class="form-label"><small class="text-muted">SR</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                           
-                                                                        </div>
-                                                                        <div class="col-12 col-lg-6" >
-                                                                            <label for="" class="form-label"><small class="text-muted">DEVELOPER</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12 col-lg-6" >
-                                                                            <label for="" class="form-label"><small class="text-muted">APPLICATION NUMBER</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                          
-                                                                        </div>
-                                                                        <div class="col-12 col-lg-6" >
-                                                                            <label for="" class="form-label"><small class="text-muted">CONSULTANT</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" >                                          
-                                                                        </div>
-                                                                    </div>  
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12 col-lg-6" >
-                                                                            <label for="" class="form-label"><small class="text-muted">LAST UPDATED ON</small></label>
-                                                                            <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly> 
-                                                                        </div>
-                                                                    </div>                   
-                                                                    <div class="row mb-3">
-                                                                        <div class="col-12" >
-                                                                            <label for="" class="form-label"><small class="text-muted">DESCRIPTION</small></label>
-                                                                            <textarea name="" id="" rows="5" class="form-control">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci culpa quisquam ratione quas expedita eaque excepturi facere explicabo numquam possimus, illum cupiditate, labore consequatur voluptas fugiat molestiae laudantium perspiciatis minus?</textarea>
-                                                                        </div>
-                                                                    </div>
-                                                                <div class="modal-footer">
-                                                                    <div class="d-flex justify-content-around">
-                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
-                                                                        <button type="submit" class="btn btn-green-active">Save</button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="table-responsive">
+                                            <table class="table table-borderless">
+                                                <tbody>
+                                                    <tr>
+                                                        <h5>General Information:</h5>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <small class="text-muted">TETUAN</small>
+                                                            <p>Lorem ipsum</p>
+                                                        </td>
+                                                        <td>
+                                                            <small class="text-muted">SRD</small>
+                                                            <p>Lorem ipsum</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <small class="text-muted">MD</small>
+                                                            <p>Lorem ipsum</p>
+                                                        </td>
+                                                        <td>
+                                                            <small class="text-muted">Project No</small>
+                                                            <p>Lorem ipsum</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <small class="text-muted">SR</small>
+                                                            <p>Lorem ipsum</p>
+                                                        </td>
+                                                        <td>
+                                                            <small class="text-muted">Developer</small>
+                                                            <p>Lorem ipsum</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <small class="text-muted">Application Number</small>
+                                                            <p>Lorem ipsum</p>
+                                                        </td>
+                                                        <td>
+                                                            <small class="text-muted">Consultant</small>
+                                                            <p>Lorem ipsum</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <small class="text-muted">Last updated on</small>
+                                                            <p>Lorem ipsum</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2">
+                                                            <small class="text-muted">Description</small>
+                                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam molestiae, nesciunt eum reiciendis, accusamus nostrum officia sequi rem deserunt totam ab. Temporibus consectetur officiis possimus quis sapiente consequuntur esse nemo?</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>
+                               S
                             </div>
                         </div>
                     </div>
