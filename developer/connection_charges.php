@@ -141,11 +141,7 @@
                                                                             <p>
                                                                                 <small>
                                                                                     Note: The update Supply Required Date submitted will be sent for processing daily at 12:00AM. 
-                                                                                    Only the latest update submitted will be sent for processing.
-                                                                                </small>
-                                                                                <br>
-                                                                                <small>
-                                                                                    New Supply Required Date can only be set 2 months after the current date.
+                                                                                    Only the latest update submitted will be sent for processing.  New Supply Required Date can only be set 2 months after the current date.
                                                                                 </small>
                                                                             </p>
                                                                         </div>
@@ -187,7 +183,7 @@
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12">
-                                                                            <label for="" class="form-label">Contact Number:</label>
+                                                                            <label for="" class="form-label">Contact Info:</label>
                                                                             <input type="text" class="form-control">
                                                                         </div>
                                                                     </div>

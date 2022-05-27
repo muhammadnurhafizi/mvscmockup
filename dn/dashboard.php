@@ -61,19 +61,22 @@
                             <div class="card-body">
                                 <div class="row mb-3">
                                     <div class="col-12 col-md-4 col-lg-2 mb-3">
-                                        <select name="" id="" class="form-select">
-                                            <option value="" disabled selected>Basic Info</option>
-                                            <option value="">Tetuan</option>
-                                            <option value="">SRD</option>
-                                            <option value="">MD</option>
-                                            <option value="">Project No</option>
-                                            <option value="">SR</option>
-                                            <option value="">Developer</option>
-                                            <option value="">Application Number</option>
-                                            <option value="">Consultant</option>
-                                            <option value="">Last Updated On</option>
-                                            <option value="">Description</option>
-                                        </select>
+                                        <div class="form-floating">
+                                            <select name="" id="" class="form-select">
+                                                <option value="" disabled selected>-- Select --</option>
+                                                <option value="">Tetuan</option>
+                                                <option value="">SRD</option>
+                                                <option value="">MD</option>
+                                                <option value="">Project No</option>
+                                                <option value="">SR</option>
+                                                <option value="">Developer</option>
+                                                <option value="">Application Number</option>
+                                                <option value="">Consultant</option>
+                                                <option value="">Last Updated On</option>
+                                                <option value="">Description</option>
+                                            </select>
+                                            <label>Basic Info</label>
+                                        </div>
                                     </div>
                                     <div class="col-12 col-md-8 col-lg-10 mb-3">
                                         <form>
@@ -207,6 +210,11 @@
                                                 </tbody>
                                             </table>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <p class="fw-bold text-end">1 - 5 of 20 <  ></p>
                                     </div>
                                 </div>
                             </div>
