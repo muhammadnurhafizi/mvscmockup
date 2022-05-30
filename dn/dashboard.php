@@ -169,6 +169,7 @@
                                                         <th>Developer</th>
                                                         <th>Last Updated On</th>
                                                         <th>Project Number</th>
+                                                        <th>Days</th>
                                                         <th>Status</th>
                                                         <th>Action</th>
                                                     </tr>
@@ -180,6 +181,7 @@
                                                         <td>KV Construction</td>
                                                         <td class="fw-bold">6 July 2022</td>
                                                         <td>DPZAC201780</td>
+                                                        <td class="fw-bold">150</td>
                                                         <td class="fw-bold">Connection Charges</td>
                                                         <td class="text-nowrap"> 
                                                             <a href="document_status.php" class="btn btn-link text-blue">View</a>
@@ -191,6 +193,7 @@
                                                         <td>ABA Hold</td>
                                                         <td class="fw-bold">20 June 2022</td>
                                                         <td>DPZAC201782</td>
+                                                        <td class="fw-bold">175</td>
                                                         <td class="fw-bold">Technical Document Resubmission</td>
                                                         <td>
                                                             <button class="btn btn-link text-blue">View</button>
@@ -202,6 +205,7 @@
                                                         <td>Baris Hadapan Sdn Bhd</td>
                                                         <td class="fw-bold">4 April 2022</td>
                                                         <td>DPZAC201999</td>
+                                                        <td class="fw-bold">210</td>
                                                         <td class="fw-bold">Technical Review</td>
                                                         <td>
                                                             <button class="btn btn-link text-blue">View</button>
