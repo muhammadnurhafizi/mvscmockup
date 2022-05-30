@@ -132,6 +132,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -142,6 +143,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -152,6 +154,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -162,6 +165,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -172,6 +176,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -182,6 +187,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -192,6 +198,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -202,6 +209,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -212,6 +220,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -222,6 +231,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button>
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -232,6 +242,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> 
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -242,6 +253,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> 
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -252,6 +264,7 @@
                                                 <td>25 August 2022</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">View</button> 
+                                                    | <button class="btn btn-link text-blue">Download</button>
                                                 </td>
                                             </tr>
                                             <tr>
