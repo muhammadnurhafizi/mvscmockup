@@ -41,7 +41,9 @@
         <div class="card-body">
             <ul>
                 <li><a href="dn/dashboard.php">Dashboard</a></li>
-                <li><a href="dn/document_status.php">Document Status</a></li>
+                <li><a href="dn/technical_document.php">Technical Document</a></li>
+                <li><a href="dn/technical_review.php">Technical Review</a></li>
+                <li><a href="dn/connection_charges.php">Connection Charges</a></li>
             </ul>
         </div>
     </div>

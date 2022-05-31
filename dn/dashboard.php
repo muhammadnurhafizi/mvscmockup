@@ -184,7 +184,7 @@
                                                         <td class="fw-bold">150</td>
                                                         <td class="fw-bold">Connection Charges</td>
                                                         <td class="text-nowrap"> 
-                                                            <a href="document_status.php" class="btn btn-link text-blue">View</a>
+                                                            <a href="connection_charges.php" class="btn btn-link text-blue">View</a>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -195,8 +195,8 @@
                                                         <td>DPZAC201782</td>
                                                         <td class="fw-bold">175</td>
                                                         <td class="fw-bold">Technical Document Resubmission</td>
-                                                        <td>
-                                                            <button class="btn btn-link text-blue">View</button>
+                                                        <td class="text-nowrap"> 
+                                                            <a href="technical_document.php" class="btn btn-link text-blue">View</a>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -208,7 +208,7 @@
                                                         <td class="fw-bold">210</td>
                                                         <td class="fw-bold">Technical Review</td>
                                                         <td>
-                                                            <button class="btn btn-link text-blue">View</button>
+                                                        <a href="technical_review.php" class="btn btn-link text-blue">View</a>
                                                         </td>
                                                     </tr>
                                                 </tbody>
