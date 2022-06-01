@@ -1384,7 +1384,37 @@
                                             </div>
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
                                                 <!-- this button will save and send data to ICPP -->
-                                                <a href="technical_review.php" class="btn btn-grey btn-grey-active">Submit</a>
+                                                <button data-bs-toggle="modal" data-bs-target="#modal_confirm_submit" class="btn btn-grey btn-grey-active">Submit</button>
+
+                                                <form action="technical_review.php">
+                                                    <div class="modal fade" id="modal_confirm_submit">
+                                                        <div class="modal-dialog modal-dialog-centered">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title">Submission Confirmation</h5>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-12">
+                                                                            <p class="text-start">
+                                                                                Confirm document submission?
+                                                                            </p>
+                                                                            <p class="text-start">
+                                                                                Note: The documents submitted will be sent for processing daily at 12:00AM.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <div class="w-100 d-flex justify-content-around">
+                                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                        <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
