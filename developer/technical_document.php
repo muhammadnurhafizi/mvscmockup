@@ -1073,8 +1073,8 @@
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
-                                                    | <button data-bs-toggle="modal" data-bs-target="#modal_upload_1" class="btn btn-link text-blue">Upload</button>
+                                                    <button data-bs-toggle="modal" data-bs-target="#modal_confirm_delete_1" class="btn btn-link text-blue">Delete</button>
+                                                    <button data-bs-toggle="modal" data-bs-target="#modal_upload_1" class="btn btn-link text-blue">Upload</button>
 
                                                     <form action="">
                                                         <div class="modal fade" id="modal_upload_1">
@@ -1124,6 +1124,36 @@
                                                                         <div class="w-100 d-flex justify-content-around">
                                                                             <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
                                                                             <button type="submit" class="btn btn-green-active">Submit</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+
+                                                    <form action="">
+                                                        <div class="modal fade" id="modal_confirm_delete_1">
+                                                            <div class="modal-dialog modal-dialog-centered">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">Delete Notice</h5>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <p class="text-start">
+                                                                                    Please delete the previous document before uploading a new document
+                                                                                </p>
+                                                                                <p class="text-start">
+                                                                                    Note: You can only upload a new document after deleting the previous document.
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <div class="w-100 d-flex justify-content-around">
+                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                            <button type="submit" class="btn btn-green-active">Delete</button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
