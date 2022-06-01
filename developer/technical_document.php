@@ -1400,13 +1400,11 @@
                                     <div class="col-12 col-lg-6"></div>
                                     <div class="col-12 col-lg-6">
                                         <div class="row">
-                                            <div class="col-12 col-lg-3 d-grid px-0 my-1">
+                                            <div class="col-12 col-lg-3 d-grid my-1">
                                                 <!-- this button will redirect to dashboard-->
-                                                <button class="btn btn-outline btn-grey">Back</button>
                                             </div>
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
-                                                <!-- this button will revert all changes made -->
-                                                <button class="btn btn-outline btn-grey">Cancel</button>
+                                                <button class="btn btn-outline btn-grey">Back</button>
                                             </div>
                                             <div class="col-12 col-lg-3 d-grid px-0 my-1">
                                                 <!-- this button will save the data without sending to ICPP -->
