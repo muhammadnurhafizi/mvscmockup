@@ -1069,12 +1069,12 @@
                                             </tr>
                                             <tr>
                                                 <td>Developer/Project Owner Company <span class="text-danger">*</span></td>
-                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td class="text-green fw-bold"></td>
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modal_confirm_delete_1" class="btn btn-link text-blue">Delete</button>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modal_upload_1" class="btn btn-link text-blue">Upload</button>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button data-bs-toggle="modal" data-bs-target="#modal_upload_1" class="btn btn-link text-blue">Upload</button>
 
                                                     <form action="">
                                                         <div class="modal fade" id="modal_upload_1">
@@ -1130,9 +1130,49 @@
                                                             </div>
                                                         </div>
                                                     </form>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Consultant Appointment Letter <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue" data-bs-toggle="modal" data-bs-target="#modal_delete_1">Delete</button>
+                                                    | <button class="btn btn-link text-blue" data-bs-toggle="modal" data-bs-target="#modal_alert_delete_1">Upload</button>
 
                                                     <form action="">
-                                                        <div class="modal fade" id="modal_confirm_delete_1">
+                                                        <div class="modal fade" id="modal_delete_1">
+                                                            <div class="modal-dialog modal-dialog-centered">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">Delete Document</h5>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                                <p class="text-start">
+                                                                                    Document Name: Consultant Appointment Letter
+                                                                                </p>
+                                                                                <p class="text-start">
+                                                                                    Are you sure you want to delete this document? Deleted document cannot be recovered.
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <div class="w-100 d-flex justify-content-around">
+                                                                            <button type="button" data-bs-dismiss="modal" class="btn btn-outline btn-green">Cancel</button>
+                                                                            <button type="submit" class="btn btn-green-active">Delete</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+
+                                                    <form action="">
+                                                        <div class="modal fade" id="modal_alert_delete_1">
                                                             <div class="modal-dialog modal-dialog-centered">
                                                                 <div class="modal-content">
                                                                     <div class="modal-header">
@@ -1160,16 +1200,6 @@
                                                             </div>
                                                         </div>
                                                     </form>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Consultant Appointment Letter <span class="text-danger">*</span></td>
-                                                <td class="text-green fw-bold">Uploaded</td>
-                                                <td>1</td>
-                                                <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
-                                                    | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
