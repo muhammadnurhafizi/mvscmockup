@@ -1069,8 +1069,8 @@
                                             </tr>
                                             <tr>
                                                 <td>Developer/Project Owner Company <span class="text-danger">*</span></td>
-                                                <td class="text-green fw-bold"></td>
-                                                <td>1</td>
+                                                <td class="text-orange fw-bold">Pending Submission</td>
+                                                <td>-</td>
                                                 <td>-</td>
                                                 <td>
                                                     <button class="btn btn-link text-blue">Delete</button>
