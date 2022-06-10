@@ -183,7 +183,7 @@
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12">
-                                                                            <label for="" class="form-label">Contact Info:</label>
+                                                                            <label for="" class="form-label">Contact Number:</label>
                                                                             <input type="text" class="form-control">
                                                                         </div>
                                                                     </div>

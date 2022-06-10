@@ -185,7 +185,7 @@
                                                                     </div>
                                                                     <div class="row mb-3">
                                                                         <div class="col-12">
-                                                                            <label for="" class="form-label">Contact Info:</label>
+                                                                            <label for="" class="form-label">Contact Number:</label>
                                                                             <input type="text" class="form-control">
                                                                         </div>
                                                                     </div>
@@ -710,6 +710,15 @@
                                                                             <label class="col-sm-4 col-form-label ">Date Supply Required (Final)</label>
                                                                             <div class="col-sm-8">
                                                                                 <input  class="form-control">
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="row mb-3">
+                                                                            <label class="col-sm-4 col-form-label ">Type</label>
+                                                                            <div class="col-sm-8">
+                                                                            <select class="form-control" name="type" id="type">
+                                                                                <option value="gov">Government</option>
+                                                                                <option value="nongov">Non-Government</option>
+                                                                            </select>
                                                                             </div>
                                                                         </div> 
                                                                     </div>

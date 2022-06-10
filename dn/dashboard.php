@@ -126,7 +126,14 @@
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-4 col-lg-2">
-                                        
+                                    <div class="form-floating">
+                                            <select name="" id="" class="form-select">
+                                                <option value="" disabled selected>-- Select --</option>
+                                                <option value="">Governemnt</option>
+                                                <option value="">Non-Government</option>
+                                            </select>
+                                            <label>Government</label>
+                                        </div>
                                     </div>
                                     <div class="col-12 col-md-4 col-lg-2 mb-3">
                                         <div class="form-floating">
