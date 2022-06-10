@@ -383,7 +383,7 @@
                                                                 <div class="row mb-3">
                                                                     <div class="col-12 col-lg-6" >
                                                                         <label for="" class="form-label"><small class="text-muted">MD</small></label>
-                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum" readonly>                                           
+                                                                        <input type="text" name="" id="" class="form-control" value="Lorem ipsum">                                           
                                                                     </div>
                                                                     <div class="col-12 col-lg-6" >
                                                                         <label for="" class="form-label"><small class="text-muted">PROJECT NUMBER</small></label>
