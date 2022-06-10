@@ -517,6 +517,26 @@
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td>Map A Document <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Approved</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Map B Document<span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Approved</td>
+                                                <td>1</td>
+                                                <td>22 July 2022</td>
+                                                <td>25 August 2022</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td>Developer/Project Owner Company <span class="text-danger">*</span></td>
                                                 <td class="text-green fw-bold">Approved</td>
                                                 <td>1</td>

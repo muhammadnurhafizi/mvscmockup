@@ -1077,6 +1077,36 @@
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td>Map A Document <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Map B Document <span class="text-danger">*</span></td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Substation Land: 1 Copy Borang A</td>
+                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td>1</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    | <button class="btn btn-link text-blue">Upload</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td>Developer/Project Owner Company <span class="text-danger">*</span></td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
