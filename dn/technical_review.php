@@ -48,19 +48,19 @@
                                     <div class="col-12 d-flex justify-content-center overflow overflow-auto">
                                         <div class="w-100 row d-flex justify-content-around">
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
-                                                <label class="text-center mb-1">70%</label>
+                                                <label class="text-center mb-1">5/18</label>
                                                 <a href="technical_document.php" class="circle line1 circle-grey mx-auto"></a>
                                                 <label class="text-center">Technical Documents Submission</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
-                                                <label class="text-center mb-1">0%</label>    
+                                                <label class="text-center mb-1">0/18</label>    
                                                 <a href="technical_review.php" class="circle line2 circle-grey mx-auto"></a>
                                                 <label class="text-center">Technical Review</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
-                                                <label class="text-center mb-1">0%</label>
+                                                <label class="text-center mb-1">0/7</label>
                                                 <a href="connection_charges.php" class="circle circle-grey mx-auto"></a>
                                                 <label class="text-center">Connection Charges</label>
                                                 <br>
@@ -81,60 +81,45 @@
                                     <div class="col-12">
                                         <div class="table-responsive">
                                             <table class="table table-borderless">
-                                                <tbody>
+                                            <tbody>
                                                     <tr>
-                                                        <h5>General Information:</h5>
+                                                        <h5>Basic Information:</h5>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <small class="text-muted">TETUAN</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Tetuan :</p>
                                                         </td>
                                                         <td>
-                                                            <small class="text-muted">SRD</small>
-                                                            <p>Lorem ipsum</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <small class="text-muted">MD</small>
-                                                            <p>Lorem ipsum</p>
-                                                        </td>
-                                                        <td>
-                                                            <small class="text-muted">Project No</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Supply Required Date :</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <small class="text-muted">SR</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Maximum Demand :</p>
                                                         </td>
                                                         <td>
-                                                            <small class="text-muted">Developer</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Project No :</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <small class="text-muted">Application Number</small>
-                                                            <p>Lorem ipsum</p>
+                                                        <p>Service Request :</p>
                                                         </td>
                                                         <td>
-                                                            <small class="text-muted">Consultant</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Developer :</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <small class="text-muted">Last updated on</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Description :</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Consultant :</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td colspan="2">
-                                                            <small class="text-muted">Description</small>
-                                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam molestiae, nesciunt eum reiciendis, accusamus nostrum officia sequi rem deserunt totam ab. Temporibus consectetur officiis possimus quis sapiente consequuntur esse nemo?</p>
+                                                        <td>
+                                                            <p>Last updated on :</p>
                                                         </td>
                                                     </tr>
                                                 </tbody>

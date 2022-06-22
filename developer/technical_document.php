@@ -7,6 +7,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/app.css">
     
 
@@ -259,19 +260,19 @@
                                     <div class="col-12 d-flex justify-content-center overflow overflow-auto">
                                         <div class="w-100 row d-flex justify-content-around">
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
-                                                <label class="text-center mb-1">0%</label>
+                                                <label class="text-center mb-1">0/18</label>
                                                 <a href="technical_document.php" class="circle line1 circle-grey mx-auto"></a>
                                                 <label class="text-center">Technical Documents Submission</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
-                                                <label class="text-center mb-1">0%</label>    
+                                                <label class="text-center mb-1">0/18</label>    
                                                 <a href="technical_review.php" class="circle line2 circle-grey mx-auto"></a>
                                                 <label class="text-center">Technical Review</label>
                                                 <br>
                                             </div>
                                             <div class="col-lg-4 col-12 d-flex flex-column justify-content-center">
-                                                <label class="text-center mb-1">0%</label>
+                                                <label class="text-center mb-1">0/7</label>
                                                 <a href="connection_charges.php" class="circle circle-grey mx-auto"></a>
                                                 <label class="text-center">Connection Charges</label>
                                                 <br>
@@ -294,58 +295,43 @@
                                             <table class="table table-borderless">
                                                 <tbody>
                                                     <tr>
-                                                        <h5>General Information:</h5>
+                                                        <h5>Basic Information:</h5>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <small class="text-muted">TETUAN</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Tetuan :</p>
                                                         </td>
                                                         <td>
-                                                            <small class="text-muted">SRD</small>
-                                                            <p>Lorem ipsum</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <small class="text-muted">MD</small>
-                                                            <p>Lorem ipsum</p>
-                                                        </td>
-                                                        <td>
-                                                            <small class="text-muted">Project No</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Supply Required Date :</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <small class="text-muted">SR</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Maximum Demand :</p>
                                                         </td>
                                                         <td>
-                                                            <small class="text-muted">Developer</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Project No :</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <small class="text-muted">Application Number</small>
-                                                            <p>Lorem ipsum</p>
+                                                        <p>Service Request :</p>
                                                         </td>
                                                         <td>
-                                                            <small class="text-muted">Consultant</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Developer :</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <small class="text-muted">Last updated on</small>
-                                                            <p>Lorem ipsum</p>
+                                                            <p>Description :</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Consultant :</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td colspan="2">
-                                                            <small class="text-muted">Description</small>
-                                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam molestiae, nesciunt eum reiciendis, accusamus nostrum officia sequi rem deserunt totam ab. Temporibus consectetur officiis possimus quis sapiente consequuntur esse nemo?</p>
+                                                        <td>
+                                                            <p>Last updated on :</p>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -503,7 +489,7 @@
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <button data-bs-toggle="modal" data-bs-target="#modal_form_map_a" class="btn btn-link text-blue">Submit</button>
 
                                                     <form action="">
@@ -740,7 +726,7 @@
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <a class="btn btn-link text-blue" data-bs-toggle="modal" href="#modal_view_building" role="button">Submit</a>
 
                                                     <!-- Modal view building -->
@@ -1077,32 +1063,12 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Map A Document <span class="text-danger">*</span></td>
-                                                <td class="text-green fw-bold">Uploaded</td>
-                                                <td>1</td>
-                                                <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
-                                                    | <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Map B Document <span class="text-danger">*</span></td>
-                                                <td class="text-green fw-bold">Uploaded</td>
-                                                <td>1</td>
-                                                <td>-</td>
-                                                <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
-                                                    | <button class="btn btn-link text-blue">Upload</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td>Substation Land: 1 Copy Borang A</td>
                                                 <td class="text-green fw-bold">Uploaded</td>
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
@@ -1112,7 +1078,7 @@
                                                 <td>-</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <button data-bs-toggle="modal" data-bs-target="#modal_upload_1" class="btn btn-link text-blue">Upload</button>
 
                                                     <form action="">
@@ -1177,7 +1143,7 @@
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue" data-bs-toggle="modal" data-bs-target="#modal_delete_1">Delete</button>
+                                                    <button class="btn btn-link text-blue" data-bs-toggle="modal" data-bs-target="#modal_delete_1">Delete Request</button>
                                                     | <button class="btn btn-link text-blue" data-bs-toggle="modal" data-bs-target="#modal_alert_delete_1">Upload</button>
 
                                                     <form action="">
@@ -1247,7 +1213,7 @@
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
@@ -1257,27 +1223,27 @@
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>Location Plan on Meter Panel <span class="text-danger">*</span></td>
-                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td class="text-green fw-bold">Deletion Requested</td>
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>Latest Development Order Plan <span class="text-danger">*</span></td>
-                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td class="text-green fw-bold">Deletion Requested</td>
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
@@ -1287,7 +1253,7 @@
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
@@ -1297,7 +1263,7 @@
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
@@ -1307,23 +1273,23 @@
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete Request</button>
                                                     | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>Meter Panel/Meter Kiosk/Meter at Gate <span class="text-danger">*</span></td>
-                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td class="text-green fw-bold">Deletion Approved</td>
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
-                                                    <button class="btn btn-link text-blue">Delete</button>
+                                                    <button class="btn btn-link text-blue">Delete </button>
                                                     | <button class="btn btn-link text-blue">Upload</button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>Substation Land: 1 Copy Borang A</td>
-                                                <td class="text-green fw-bold">Uploaded</td>
+                                                <td class="text-green fw-bold">Deletion Approved</td>
                                                 <td>1</td>
                                                 <td>-</td>
                                                 <td>
@@ -1388,11 +1354,11 @@
                                                 <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>Others</td>
+                                                <td>Others<i class="bi bi-pencil"></i></td>
                                                 <td class="text-orange fw-bold">Pending Submission</td>
                                                 <td>-</td>
                                                 <td>-</td>
-                                                <td>-</td>
+                                                <td><button class="btn btn-green-active " style="border-radius:50%;">+</button></td>
                                             </tr>
                                         </tbody>
                                     </table>
